@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import { persistStore, persistReducer } from 'redux-persist';
 import { REHYDRATE } from 'redux-persist/lib/constants';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import thunk from 'redux-thunk';
 
 import rootReducer from '~/store/reducers';
@@ -16,7 +16,7 @@ const persistConfig = {
   ],
 };
 
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const composeEnhancers = /*window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ||*/ compose;
 
 // in this middleware we can put actions to be called on REHYDRATE
 const appStateMiddleware = () => {
