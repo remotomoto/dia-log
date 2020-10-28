@@ -1,0 +1,7 @@
+{
+  "navigation": {
+    "signup": "Sign Up",
+    "login": "Login",
+    "passwordReset": "Reset Password"
+  }
+}
