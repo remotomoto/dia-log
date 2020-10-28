@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components.Logo Tests default render 1`] = `
+<View
+  style={
+    Object {
+      "paddingBottom": 8,
+      "paddingTop": 8,
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/components/Logo/images/logo.png",
+      }
+    }
+    style={
+      Object {
+        "alignSelf": "center",
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#eb5966",
+        "fontFamily": "circular_std_book",
+        "fontSize": 18,
+        "paddingTop": 2,
+        "textAlign": "center",
+      }
+    }
+  >
+    Label
+  </Text>
+</View>
+`;
+
+exports[`components.Logo Tests white logo render 1`] = `
+<View
+  style={
+    Object {
+      "paddingBottom": 8,
+      "paddingTop": 8,
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/components/Logo/images/logo-white.png",
+      }
+    }
+    style={
+      Object {
+        "alignSelf": "center",
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#ffffff",
+        "fontFamily": "circular_std_book",
+        "fontSize": 18,
+        "paddingTop": 2,
+        "textAlign": "center",
+      }
+    }
+  />
+</View>
+`;
