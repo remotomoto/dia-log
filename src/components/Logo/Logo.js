@@ -3,7 +3,7 @@ import { Text, Image, View } from 'react-native';
 
 import styles from './Logo.styles';
 
-const whiteLogo = require('./images/logo-white.png');
+const whiteLogo = require('./images/logo.png');
 const defaultLogo = require('./images/logo.png');
 
 export const Logo = ({ white, label }) => {

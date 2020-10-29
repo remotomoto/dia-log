@@ -9,11 +9,13 @@ const logoStyles = StyleSheet.create({
     width: '100%',
   },
   logoImage: {
+    width: 100,
+    height: 100,
     alignSelf: 'center',
   },
   logoText: {
     textAlign: 'center',
-    color: colors.alert,
+    color: colors.main,
     fontFamily: fontFamilies.normal,
     fontSize: fontSizes.medium,
     paddingTop: spaces.tiny / 2,

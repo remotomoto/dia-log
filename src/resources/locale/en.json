@@ -4,5 +4,25 @@
     "signup": "Sign Up",
     "login": "Login",
     "passwordReset": "Reset Password"
+  },
+  "logo": {
+    "label": "Dia-Log"
+  },
+  "screen": {
+    "login": {
+      "errors": {
+        "invalidEmail": "Please, provide a valid email"
+      },
+      "notAUser": "Not a User? ",
+      "passwordForgot": "I forgot my password",
+      "placeholders": {
+        "email": "E-mail",
+        "password": "Password"
+      },
+      "signUp": "Sign Up",
+      "button": {
+        "label": "Login"
+      }
+    }
   }
 }

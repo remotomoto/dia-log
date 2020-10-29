@@ -71,10 +71,14 @@ export const loginError = (provider, error) => ({ type: LOGIN_ERROR, provider, e
 
 export const login = (email, password) => {
   return async (dispatch) => {
-    dispatch(emailSignupStarted());
+    dispatch(loginStarted());
     if (!isValidEmail(email)) {
-      recordError(new AuthenticationError('login.errors.invalidEmail'), { file, function: 'login', params: { email } });
-      dispatch(emailSignupError(translate('login.errors.invalidEmail')));
+      recordError(new AuthenticationError(translate('screen.login.errors.invalidEmail')), {
+        file,
+        function: 'login',
+        params: { email },
+      });
+      dispatch(loginError(null, translate('screen.login.errors.invalidEmail')));
       return;
     }
 
@@ -86,7 +90,7 @@ export const login = (email, password) => {
       })
       .catch((error) => {
         recordError(error, { file, function: 'loginWithEmail', params: { email } });
-        dispatch(emailSignupError(error.toString()));
+        dispatch(loginError(null, error.toString()));
       });
   };
 };
