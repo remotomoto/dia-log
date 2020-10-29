@@ -5,7 +5,7 @@ import { bindActionCreators } from 'redux';
 
 import { faUser, faFileAlt, faCommentAlt, faEye } from '@fortawesome/free-regular-svg-icons';
 
-import { translate } from '~/components/common/i18n';
+import { translate } from '~/i18n/i18n';
 import Container from '~/components/Container';
 import Button from '~/components/Button';
 import Logo from '~/components/Logo';

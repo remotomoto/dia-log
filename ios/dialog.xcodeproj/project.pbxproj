@@ -19,7 +19,11 @@
 		2F97BEF695B9643B90CE825D /* libPods-dialog-dialogTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D30A1042F35D59CE2574F789 /* libPods-dialog-dialogTests.a */; };
 		3603F9D6F9863CAF448B2D89 /* libPods-dialog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC0EA4DDBC81DE26E407604 /* libPods-dialog.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		92B55E24254A7AEC00424034 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92B55E23254A7AEC00424034 /* GoogleService-Info.plist */; };
 		E4EDB3741240D511FC44D384 /* libPods-dialog-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A98CD86C20C11EB55D9A60D5 /* libPods-dialog-tvOSTests.a */; };
+		700E6B9EBED040599099D90A /* JetBrainsMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A197E7035D4E4A6C8569C4C0 /* JetBrainsMono-Bold.ttf */; };
+		DBAABD03216F4901B9168AA9 /* JetBrainsMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38665B292E5A4758BB1932C4 /* JetBrainsMono-Medium.ttf */; };
+		DEAD6F74088A47BD90BE9E49 /* JetBrainsMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB0126A21A24A2192D3960C /* JetBrainsMono-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = dialog/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86CC04080D1BAD77BDE52106 /* Pods-dialog-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dialog-tvOS.release.xcconfig"; path = "Target Support Files/Pods-dialog-tvOS/Pods-dialog-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		8EC47AB59D966780799E34C6 /* Pods-dialog-dialogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dialog-dialogTests.release.xcconfig"; path = "Target Support Files/Pods-dialog-dialogTests/Pods-dialog-dialogTests.release.xcconfig"; sourceTree = "<group>"; };
+		92B55E23254A7AEC00424034 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		95C33787F6182C9132E904F4 /* Pods-dialog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dialog.release.xcconfig"; path = "Target Support Files/Pods-dialog/Pods-dialog.release.xcconfig"; sourceTree = "<group>"; };
 		A98CD86C20C11EB55D9A60D5 /* libPods-dialog-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dialog-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0883550EAD2A150E687EA16 /* Pods-dialog-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dialog-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-dialog-tvOSTests/Pods-dialog-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +72,9 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F572BD6C46C01092BE1FAF8F /* Pods-dialog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dialog.debug.xcconfig"; path = "Target Support Files/Pods-dialog/Pods-dialog.debug.xcconfig"; sourceTree = "<group>"; };
 		FBC0EA4DDBC81DE26E407604 /* libPods-dialog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dialog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A197E7035D4E4A6C8569C4C0 /* JetBrainsMono-Bold.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-Bold.ttf"; path = "../src/resources/fonts/JetBrainsMono-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		38665B292E5A4758BB1932C4 /* JetBrainsMono-Medium.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-Medium.ttf"; path = "../src/resources/fonts/JetBrainsMono-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CBB0126A21A24A2192D3960C /* JetBrainsMono-Regular.ttf */ = {isa = PBXFileReference; name = "JetBrainsMono-Regular.ttf"; path = "../src/resources/fonts/JetBrainsMono-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +133,7 @@
 		13B07FAE1A68108700A75B9A /* dialog */ = {
 			isa = PBXGroup;
 			children = (
+				92B55E23254A7AEC00424034 /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -181,6 +190,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				684D0698F8CC3F6056B5D7E8 /* Pods */,
+				A6E9EE5F40594E7484867127 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +207,17 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		A6E9EE5F40594E7484867127 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				A197E7035D4E4A6C8569C4C0 /* JetBrainsMono-Bold.ttf */,
+				38665B292E5A4758BB1932C4 /* JetBrainsMono-Medium.ttf */,
+				CBB0126A21A24A2192D3960C /* JetBrainsMono-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -344,6 +365,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				92B55E24254A7AEC00424034 /* GoogleService-Info.plist in Resources */,
+				700E6B9EBED040599099D90A /* JetBrainsMono-Bold.ttf in Resources */,
+				DBAABD03216F4901B9168AA9 /* JetBrainsMono-Medium.ttf in Resources */,
+				DEAD6F74088A47BD90BE9E49 /* JetBrainsMono-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

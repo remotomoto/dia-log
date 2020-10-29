@@ -1,16 +1,15 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Alert } from 'react-native';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { enableScreens } from 'react-native-screens';
-import { NavigationContainer, useLinking, getStateFromPath } from '@react-navigation/native';
+import { getStateFromPath, NavigationContainer, useLinking } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import _ from 'lodash';
 
 import { navigationRef } from '~/components/RootNavigation';
 
-import { recordError } from '~/integrations/crashlytics';
-import { trackScreenView } from '~/integrations/analytics';
+import { recordError } from '~/crashlytics/crashlytics';
 
 import Authenticated from './Authenticated';
 import UnAuthenticated from './UnAuthenticated';
@@ -83,14 +82,7 @@ export const AppNavigator = ({ user }) => {
       initialState={initialState}
       onStateChange={(state) => {
         AsyncStorage.setItem(PERSISTENCE_KEY, JSON.stringify(state));
-        const previousRouteName = previousRouteRef.current;
-        const currentRouteName = getActiveRouteName(state);
-
-        if (previousRouteName !== currentRouteName) {
-          trackScreenView(currentRouteName);
-        }
-
-        previousRouteRef.current = currentRouteName;
+        previousRouteRef.current = getActiveRouteName(state);
       }}
     >
       {stack}

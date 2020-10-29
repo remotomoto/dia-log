@@ -23,6 +23,11 @@ export default class App extends React.Component {
     super(props);
     setI18nConfig();
     if (!firebase.apps.length) {
+      // const config = {
+      //   projectId: 'xxx',
+      //   apiKey: 'xxx',
+      // };
+      // firebase.initializeApp(config);
       firebase.app('[DEFAULT]');
     }
   }

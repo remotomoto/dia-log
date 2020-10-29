@@ -46,9 +46,9 @@ export const spaces = {
 };
 
 export const fontFamilies = {
-  normal: 'circular_std_book',
-  bold: 'circular_std_bold',
-  medium: 'circular_std_medium',
+  normal: 'JetBrainsMono-Regular',
+  bold: 'JetBrainsMono-Bold',
+  medium: 'JetBrainsMono-Medium',
 };
 
 export const getComponentsThemes = (theme) => {
