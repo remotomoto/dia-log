@@ -1,0 +1,20 @@
+{
+  "preset": "react-native",
+  "collectCoverageFrom": ["src/**/*.{js,jsx}"],
+  "collectCoverage": true,
+  "coverageReporters": ["lcov", "text-summary", "html"],
+  "setupFiles": [
+    "jest-prop-type-error",
+    "./node_modules/react-native-gesture-handler/jestSetup.js",
+    "./jestSetupFile.js"
+  ],
+  "testPathIgnorePatterns": ["node_modules", ".*\\.ios\\..*"],
+  "transformIgnorePatterns": [
+    "node_modules/(?!(jest-)?react-native|@react-native-community|@react-navigation|@fortawesome|opentok-react-native)"
+  ],
+  "snapshotResolver": "./jest.snapshot.resolver.js",
+  "globals": {
+    "window": {}
+  },
+  "testResultsProcessor": "jest-sonar-reporter"
+}

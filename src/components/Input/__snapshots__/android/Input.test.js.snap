@@ -17,7 +17,7 @@ exports[`components.Input Tests test render for Input 1`] = `
         "borderBottomWidth": 1,
         "borderColor": "#ffffff",
         "color": "#ffffff",
-        "fontFamily": "circular_std_book",
+        "fontFamily": "JetBrainsMono-Regular",
         "fontSize": 16,
         "height": 32,
         "paddingHorizontal": 0,
@@ -52,7 +52,7 @@ exports[`components.Input Tests test render for SearchInput 1`] = `
       Object {
         "color": "#395596",
         "flex": 1,
-        "fontFamily": "circular_std_book",
+        "fontFamily": "JetBrainsMono-Regular",
         "fontSize": 16,
         "paddingVertical": 0,
       }
@@ -161,7 +161,7 @@ exports[`components.Input Tests test render for SelectInput 1`] = `
             "borderBottomColor": "#395596",
             "borderBottomWidth": 1,
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "height": 31,
             "marginLeft": 0,
             "paddingLeft": -10,
