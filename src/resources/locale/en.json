@@ -1,0 +1,42 @@
+{
+  "navigation": {
+    "home": "Home",
+    "signup": "Sign Up",
+    "login": "Login",
+    "passwordReset": "Reset Password"
+  },
+  "logo": {
+    "label": "Dia-Log"
+  },
+  "screen": {
+    "login": {
+      "errors": {
+        "invalidEmail": "Please, provide a valid email"
+      },
+      "notAUser": "Not a User? ",
+      "passwordForgot": "I forgot my password",
+      "placeholders": {
+        "email": "E-mail",
+        "password": "Password"
+      },
+      "signUp": "Sign Up",
+      "button": {
+        "label": "Login"
+      }
+    },
+    "signup": {
+      "errors": {
+        "invalidEmail": "Please, provide a valid email",
+        "passwordDontMatch": "Both passwords should match",
+        "passwordNotMeetingRules": "Please, ensure that your password have at least 6 characters, including at least one upper case letter, one lower case letter, one digit and one special character"
+      }
+    },
+    "home": {
+      "hello": "Hello %{name}",
+      "whatToDo": "Start self-monitoring",
+      "settings": "Settings",
+      "profile": "Profile",
+      "logout": "Logout"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components.Select.android Tests Select.android - default 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#395596",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "color": "#395596",
+        "fontSize": 12,
+      }
+    }
+  />
+  <RNCAndroidDropdownPicker
+    items={
+      Array [
+        Object {
+          "label": "Please select",
+          "value": null,
+        },
+        Object {
+          "label": "Item 1",
+          "value": "00000000-0000-0000-0000-000000000001",
+        },
+        Object {
+          "label": "Item 2",
+          "value": "00000000-0000-0000-0000-000000000002",
+        },
+        Object {
+          "label": "Item 3",
+          "value": "00000000-0000-0000-0000-000000000003",
+        },
+        Object {
+          "label": "Item 4",
+          "value": "00000000-0000-0000-0000-000000000004",
+        },
+      ]
+    }
+    mode="dropdown"
+    onSelect={[Function]}
+    prompt="Please select"
+    selected={0}
+    style={
+      Array [
+        Object {
+          "height": 50,
+        },
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 31,
+          "marginLeft": 0,
+          "paddingLeft": -10,
+          "width": "100%",
+        },
+      ]
+    }
+  />
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={16}
+    bbWidth={16}
+    fill="#395596"
+    focusable={false}
+    height={16}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    secondaryFill={null}
+    secondaryOpacity={0.4}
+    size={16}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "bottom": 8,
+          "height": 24,
+          "position": "absolute",
+          "right": 0,
+        },
+        Object {
+          "flex": 0,
+          "height": 16,
+          "width": 16,
+        },
+      ]
+    }
+    vbHeight={512}
+    vbWidth={448}
+    width={16}
+  >
+    <RNSVGGroup
+      fill={-13019754}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+    >
+      <RNSVGPath
+        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+        fill={-13019754}
+        fillOpacity={1}
+        propList={
+          Array [
+            "fill",
+            "fillOpacity",
+          ]
+        }
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`components.Select.android Tests Select.android - select null value 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#395596",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "color": "#395596",
+        "fontSize": 12,
+      }
+    }
+  />
+  <RNCAndroidDropdownPicker
+    items={
+      Array [
+        Object {
+          "label": "Please select",
+          "value": null,
+        },
+        Object {
+          "label": "Item 1",
+          "value": "00000000-0000-0000-0000-000000000001",
+        },
+        Object {
+          "label": "Item 2",
+          "value": "00000000-0000-0000-0000-000000000002",
+        },
+        Object {
+          "label": "Item 3",
+          "value": "00000000-0000-0000-0000-000000000003",
+        },
+        Object {
+          "label": "Item 4",
+          "value": "00000000-0000-0000-0000-000000000004",
+        },
+      ]
+    }
+    mode="dropdown"
+    onSelect={[Function]}
+    prompt="Please select"
+    selected={0}
+    style={
+      Array [
+        Object {
+          "height": 50,
+        },
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 31,
+          "marginLeft": 0,
+          "paddingLeft": -10,
+          "width": "100%",
+        },
+      ]
+    }
+  />
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={16}
+    bbWidth={16}
+    fill="#395596"
+    focusable={false}
+    height={16}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    secondaryFill={null}
+    secondaryOpacity={0.4}
+    size={16}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "bottom": 8,
+          "height": 24,
+          "position": "absolute",
+          "right": 0,
+        },
+        Object {
+          "flex": 0,
+          "height": 16,
+          "width": 16,
+        },
+      ]
+    }
+    vbHeight={512}
+    vbWidth={448}
+    width={16}
+  >
+    <RNSVGGroup
+      fill={-13019754}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+    >
+      <RNSVGPath
+        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+        fill={-13019754}
+        fillOpacity={1}
+        propList={
+          Array [
+            "fill",
+            "fillOpacity",
+          ]
+        }
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`components.Select.android Tests Select.android - select null value 2`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#395596",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "color": "#395596",
+        "fontSize": 12,
+      }
+    }
+  />
+  <RNCAndroidDropdownPicker
+    items={
+      Array [
+        Object {
+          "label": "Please select",
+          "value": null,
+        },
+        Object {
+          "label": "Item 1",
+          "value": "00000000-0000-0000-0000-000000000001",
+        },
+        Object {
+          "label": "Item 2",
+          "value": "00000000-0000-0000-0000-000000000002",
+        },
+        Object {
+          "label": "Item 3",
+          "value": "00000000-0000-0000-0000-000000000003",
+        },
+        Object {
+          "label": "Item 4",
+          "value": "00000000-0000-0000-0000-000000000004",
+        },
+      ]
+    }
+    mode="dropdown"
+    onSelect={[Function]}
+    prompt="Please select"
+    selected={0}
+    style={
+      Array [
+        Object {
+          "height": 50,
+        },
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 31,
+          "marginLeft": 0,
+          "paddingLeft": -10,
+          "width": "100%",
+        },
+      ]
+    }
+  />
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={16}
+    bbWidth={16}
+    fill="#395596"
+    focusable={false}
+    height={16}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    secondaryFill={null}
+    secondaryOpacity={0.4}
+    size={16}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "bottom": 8,
+          "height": 24,
+          "position": "absolute",
+          "right": 0,
+        },
+        Object {
+          "flex": 0,
+          "height": 16,
+          "width": 16,
+        },
+      ]
+    }
+    vbHeight={512}
+    vbWidth={448}
+    width={16}
+  >
+    <RNSVGGroup
+      fill={-13019754}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+    >
+      <RNSVGPath
+        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+        fill={-13019754}
+        fillOpacity={1}
+        propList={
+          Array [
+            "fill",
+            "fillOpacity",
+          ]
+        }
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`components.Select.android Tests Select.android - select value 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#395596",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "color": "#395596",
+        "fontSize": 12,
+      }
+    }
+  />
+  <RNCAndroidDropdownPicker
+    items={
+      Array [
+        Object {
+          "label": "Please select",
+          "value": null,
+        },
+        Object {
+          "label": "Item 1",
+          "value": "00000000-0000-0000-0000-000000000001",
+        },
+        Object {
+          "label": "Item 2",
+          "value": "00000000-0000-0000-0000-000000000002",
+        },
+        Object {
+          "label": "Item 3",
+          "value": "00000000-0000-0000-0000-000000000003",
+        },
+        Object {
+          "label": "Item 4",
+          "value": "00000000-0000-0000-0000-000000000004",
+        },
+      ]
+    }
+    mode="dropdown"
+    onSelect={[Function]}
+    prompt="Please select"
+    selected={0}
+    style={
+      Array [
+        Object {
+          "height": 50,
+        },
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 31,
+          "marginLeft": 0,
+          "paddingLeft": -10,
+          "width": "100%",
+        },
+      ]
+    }
+  />
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={16}
+    bbWidth={16}
+    fill="#395596"
+    focusable={false}
+    height={16}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    secondaryFill={null}
+    secondaryOpacity={0.4}
+    size={16}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "bottom": 8,
+          "height": 24,
+          "position": "absolute",
+          "right": 0,
+        },
+        Object {
+          "flex": 0,
+          "height": 16,
+          "width": 16,
+        },
+      ]
+    }
+    vbHeight={512}
+    vbWidth={448}
+    width={16}
+  >
+    <RNSVGGroup
+      fill={-13019754}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+    >
+      <RNSVGPath
+        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+        fill={-13019754}
+        fillOpacity={1}
+        propList={
+          Array [
+            "fill",
+            "fillOpacity",
+          ]
+        }
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`components.Select.android Tests Select.android - select value 2`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#395596",
+      "borderBottomWidth": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "color": "#395596",
+        "fontSize": 12,
+      }
+    }
+  />
+  <RNCAndroidDropdownPicker
+    items={
+      Array [
+        Object {
+          "label": "Please select",
+          "value": null,
+        },
+        Object {
+          "label": "Item 1",
+          "value": "00000000-0000-0000-0000-000000000001",
+        },
+        Object {
+          "label": "Item 2",
+          "value": "00000000-0000-0000-0000-000000000002",
+        },
+        Object {
+          "label": "Item 3",
+          "value": "00000000-0000-0000-0000-000000000003",
+        },
+        Object {
+          "label": "Item 4",
+          "value": "00000000-0000-0000-0000-000000000004",
+        },
+      ]
+    }
+    mode="dropdown"
+    onSelect={[Function]}
+    prompt="Please select"
+    selected={0}
+    style={
+      Array [
+        Object {
+          "height": 50,
+        },
+        Object {
+          "alignSelf": "flex-start",
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 31,
+          "marginLeft": 0,
+          "paddingLeft": -10,
+          "width": "100%",
+        },
+      ]
+    }
+  />
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={16}
+    bbWidth={16}
+    fill="#395596"
+    focusable={false}
+    height={16}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    secondaryFill={null}
+    secondaryOpacity={0.4}
+    size={16}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "bottom": 8,
+          "height": 24,
+          "position": "absolute",
+          "right": 0,
+        },
+        Object {
+          "flex": 0,
+          "height": 16,
+          "width": 16,
+        },
+      ]
+    }
+    vbHeight={512}
+    vbWidth={448}
+    width={16}
+  >
+    <RNSVGGroup
+      fill={-13019754}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+    >
+      <RNSVGPath
+        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+        fill={-13019754}
+        fillOpacity={1}
+        propList={
+          Array [
+            "fill",
+            "fillOpacity",
+          ]
+        }
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;

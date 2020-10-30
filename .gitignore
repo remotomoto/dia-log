@@ -57,3 +57,8 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+.env
+ios/GoogleService-Info.plist
+android/google-services.json
+coverage
+test-report.xml

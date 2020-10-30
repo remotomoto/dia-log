@@ -1,0 +1,3179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components.Select.ios Tests Select.ios - default 1`] = `
+<View
+  style={Object {}}
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": null,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.1)",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#395596",
+                "fontFamily": "JetBrainsMono-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Done
+          </Text>
+        </View>
+      </View>
+      <View>
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Please select",
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "Item 1",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000001",
+              },
+              Object {
+                "label": "Item 2",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000002",
+              },
+              Object {
+                "label": "Item 3",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000003",
+              },
+              Object {
+                "label": "Item 4",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000004",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              Object {
+                "fontFamily": "JetBrainsMono-Regular",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#395596",
+            "fontFamily": "JetBrainsMono-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Please select
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#395596"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={16}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": 24,
+              "position": "absolute",
+              "right": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4281947542}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill={4281947542}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components.Select.ios Tests Select.ios - display selector 1`] = `
+<View
+  style={Object {}}
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": null,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.1)",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#395596",
+                "fontFamily": "JetBrainsMono-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Done
+          </Text>
+        </View>
+      </View>
+      <View>
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Please select",
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "Item 1",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000001",
+              },
+              Object {
+                "label": "Item 2",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000002",
+              },
+              Object {
+                "label": "Item 3",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000003",
+              },
+              Object {
+                "label": "Item 4",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000004",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              Object {
+                "fontFamily": "JetBrainsMono-Regular",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#395596",
+            "fontFamily": "JetBrainsMono-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Please select
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#395596"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={16}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": 24,
+              "position": "absolute",
+              "right": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4281947542}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill={4281947542}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components.Select.ios Tests Select.ios - display selector 2`] = `
+<View
+  style={Object {}}
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": null,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.1)",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#395596",
+                "fontFamily": "JetBrainsMono-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Done
+          </Text>
+        </View>
+      </View>
+      <View>
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Please select",
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "Item 1",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000001",
+              },
+              Object {
+                "label": "Item 2",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000002",
+              },
+              Object {
+                "label": "Item 3",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000003",
+              },
+              Object {
+                "label": "Item 4",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000004",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              Object {
+                "fontFamily": "JetBrainsMono-Regular",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#395596",
+            "fontFamily": "JetBrainsMono-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Please select
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#395596"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={16}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": 24,
+              "position": "absolute",
+              "right": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4281947542}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill={4281947542}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components.Select.ios Tests Select.ios - open and close picker 1`] = `
+<View
+  style={Object {}}
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": null,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.1)",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#395596",
+                "fontFamily": "JetBrainsMono-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Done
+          </Text>
+        </View>
+      </View>
+      <View>
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Please select",
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "Item 1",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000001",
+              },
+              Object {
+                "label": "Item 2",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000002",
+              },
+              Object {
+                "label": "Item 3",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000003",
+              },
+              Object {
+                "label": "Item 4",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000004",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              Object {
+                "fontFamily": "JetBrainsMono-Regular",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#395596",
+            "fontFamily": "JetBrainsMono-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Please select
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#395596"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={16}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": 24,
+              "position": "absolute",
+              "right": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4281947542}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill={4281947542}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components.Select.ios Tests Select.ios - open and close picker 2`] = `
+<View
+  style={Object {}}
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": null,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.1)",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#395596",
+                "fontFamily": "JetBrainsMono-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Done
+          </Text>
+        </View>
+      </View>
+      <View>
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Please select",
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "Item 1",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000001",
+              },
+              Object {
+                "label": "Item 2",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000002",
+              },
+              Object {
+                "label": "Item 3",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000003",
+              },
+              Object {
+                "label": "Item 4",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000004",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              Object {
+                "fontFamily": "JetBrainsMono-Regular",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#395596",
+            "fontFamily": "JetBrainsMono-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Please select
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#395596"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={16}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": 24,
+              "position": "absolute",
+              "right": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4281947542}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill={4281947542}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components.Select.ios Tests Select.ios - open and close picker 3`] = `
+<View
+  style={Object {}}
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": null,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.1)",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#395596",
+                "fontFamily": "JetBrainsMono-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Done
+          </Text>
+        </View>
+      </View>
+      <View>
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Please select",
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "Item 1",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000001",
+              },
+              Object {
+                "label": "Item 2",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000002",
+              },
+              Object {
+                "label": "Item 3",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000003",
+              },
+              Object {
+                "label": "Item 4",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000004",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              Object {
+                "fontFamily": "JetBrainsMono-Regular",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#395596",
+            "fontFamily": "JetBrainsMono-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Please select
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#395596"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={16}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": 24,
+              "position": "absolute",
+              "right": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4281947542}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill={4281947542}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components.Select.ios Tests Select.ios - select null value 1`] = `
+<View
+  style={Object {}}
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": null,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.1)",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#395596",
+                "fontFamily": "JetBrainsMono-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Done
+          </Text>
+        </View>
+      </View>
+      <View>
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Please select",
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "Item 1",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000001",
+              },
+              Object {
+                "label": "Item 2",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000002",
+              },
+              Object {
+                "label": "Item 3",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000003",
+              },
+              Object {
+                "label": "Item 4",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000004",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              Object {
+                "fontFamily": "JetBrainsMono-Regular",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#395596",
+            "fontFamily": "JetBrainsMono-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Please select
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#395596"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={16}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": 24,
+              "position": "absolute",
+              "right": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4281947542}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill={4281947542}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components.Select.ios Tests Select.ios - select null value 2`] = `
+<View
+  style={Object {}}
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": null,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.1)",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#395596",
+                "fontFamily": "JetBrainsMono-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Done
+          </Text>
+        </View>
+      </View>
+      <View>
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Please select",
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "Item 1",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000001",
+              },
+              Object {
+                "label": "Item 2",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000002",
+              },
+              Object {
+                "label": "Item 3",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000003",
+              },
+              Object {
+                "label": "Item 4",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000004",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              Object {
+                "fontFamily": "JetBrainsMono-Regular",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#395596",
+            "fontFamily": "JetBrainsMono-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Please select
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#395596"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={16}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": 24,
+              "position": "absolute",
+              "right": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4281947542}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill={4281947542}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components.Select.ios Tests Select.ios - select null value 3`] = `
+<View
+  style={Object {}}
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": null,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.1)",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#395596",
+                "fontFamily": "JetBrainsMono-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Done
+          </Text>
+        </View>
+      </View>
+      <View>
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Please select",
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "Item 1",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000001",
+              },
+              Object {
+                "label": "Item 2",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000002",
+              },
+              Object {
+                "label": "Item 3",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000003",
+              },
+              Object {
+                "label": "Item 4",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000004",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              Object {
+                "fontFamily": "JetBrainsMono-Regular",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#395596",
+            "fontFamily": "JetBrainsMono-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Please select
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#395596"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={16}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": 24,
+              "position": "absolute",
+              "right": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4281947542}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill={4281947542}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components.Select.ios Tests Select.ios - select null value 4`] = `
+<View
+  style={Object {}}
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": null,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.1)",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#395596",
+                "fontFamily": "JetBrainsMono-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Done
+          </Text>
+        </View>
+      </View>
+      <View>
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Please select",
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "Item 1",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000001",
+              },
+              Object {
+                "label": "Item 2",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000002",
+              },
+              Object {
+                "label": "Item 3",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000003",
+              },
+              Object {
+                "label": "Item 4",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000004",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              Object {
+                "fontFamily": "JetBrainsMono-Regular",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#395596",
+            "fontFamily": "JetBrainsMono-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Please select
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#395596"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={16}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": 24,
+              "position": "absolute",
+              "right": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4281947542}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill={4281947542}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components.Select.ios Tests Select.ios - select value 1`] = `
+<View
+  style={Object {}}
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": null,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.1)",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#395596",
+                "fontFamily": "JetBrainsMono-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Done
+          </Text>
+        </View>
+      </View>
+      <View>
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Please select",
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "Item 1",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000001",
+              },
+              Object {
+                "label": "Item 2",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000002",
+              },
+              Object {
+                "label": "Item 3",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000003",
+              },
+              Object {
+                "label": "Item 4",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000004",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              Object {
+                "fontFamily": "JetBrainsMono-Regular",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#395596",
+            "fontFamily": "JetBrainsMono-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Please select
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#395596"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={16}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": 24,
+              "position": "absolute",
+              "right": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4281947542}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill={4281947542}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components.Select.ios Tests Select.ios - select value 2`] = `
+<View
+  style={Object {}}
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": null,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.1)",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#395596",
+                "fontFamily": "JetBrainsMono-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Done
+          </Text>
+        </View>
+      </View>
+      <View>
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Please select",
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "Item 1",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000001",
+              },
+              Object {
+                "label": "Item 2",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000002",
+              },
+              Object {
+                "label": "Item 3",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000003",
+              },
+              Object {
+                "label": "Item 4",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000004",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              Object {
+                "fontFamily": "JetBrainsMono-Regular",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#395596",
+            "fontFamily": "JetBrainsMono-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Please select
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#395596"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={16}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": 24,
+              "position": "absolute",
+              "right": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4281947542}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill={4281947542}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components.Select.ios Tests Select.ios - select value 3`] = `
+<View
+  style={Object {}}
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": null,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.1)",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#395596",
+                "fontFamily": "JetBrainsMono-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Done
+          </Text>
+        </View>
+      </View>
+      <View>
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Please select",
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "Item 1",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000001",
+              },
+              Object {
+                "label": "Item 2",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000002",
+              },
+              Object {
+                "label": "Item 3",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000003",
+              },
+              Object {
+                "label": "Item 4",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000004",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              Object {
+                "fontFamily": "JetBrainsMono-Regular",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#395596",
+            "fontFamily": "JetBrainsMono-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Please select
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#395596"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={16}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": 24,
+              "position": "absolute",
+              "right": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4281947542}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill={4281947542}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components.Select.ios Tests Select.ios - select value 4`] = `
+<View
+  style={Object {}}
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={false}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "opacity": 1,
+          "width": null,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.1)",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 16,
+            "paddingVertical": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignSelf": "flex-start",
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#395596",
+                "fontFamily": "JetBrainsMono-Bold",
+                "fontSize": 16,
+              }
+            }
+          >
+            Done
+          </Text>
+        </View>
+      </View>
+      <View>
+        <RNCPicker
+          items={
+            Array [
+              Object {
+                "label": "Please select",
+                "textColor": undefined,
+                "value": null,
+              },
+              Object {
+                "label": "Item 1",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000001",
+              },
+              Object {
+                "label": "Item 2",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000002",
+              },
+              Object {
+                "label": "Item 3",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000003",
+              },
+              Object {
+                "label": "Item 4",
+                "textColor": undefined,
+                "value": "00000000-0000-0000-0000-000000000004",
+              },
+            ]
+          }
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            Array [
+              Object {
+                "height": 216,
+              },
+              Object {
+                "fontFamily": "JetBrainsMono-Regular",
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </Modal>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderBottomColor": "#395596",
+          "borderBottomWidth": 1,
+          "color": "#395596",
+          "fontFamily": "JetBrainsMono-Regular",
+          "height": 32,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#395596",
+            "fontFamily": "JetBrainsMono-Regular",
+            "fontSize": 16,
+          }
+        }
+      >
+        Please select
+      </Text>
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#395596"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={16}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": 24,
+              "position": "absolute",
+              "right": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4281947542}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+            fill={4281947542}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
