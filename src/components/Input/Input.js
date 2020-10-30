@@ -103,7 +103,6 @@ const Input = ({ theme = themes.main, value, onChangeText, labelBottom, labelTop
   let inputElement;
 
   if (mask && mask.type) {
-    // eslint-disable-next-line no-unused-vars
     const { type, ...options } = mask;
     inputElement = <TextInputMask type={mask.type} options={options} {...inputProps} />;
   } else {

@@ -59,16 +59,33 @@
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/runtime": "^7.8.4",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/format": "^11.0.0",
     "@react-native-community/eslint-config": "^1.1.0",
     "babel-jest": "^25.1.0",
+    "commitlint": "^11.0.0",
     "eslint": "^6.5.1",
+    "husky": "^4.3.0",
     "jest": "^25.1.0",
     "jest-prop-type-error": "^1.1.0",
     "jest-sonar-reporter": "^2.0.0",
     "metro-react-native-babel-preset": "^0.59.0",
+    "pretty-quick": "^3.1.0",
     "react-test-renderer": "16.13.1"
   },
   "jest": {
     "preset": "react-native"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "pretty-quick --staged && yarn lint",
+      "pre-push": "yarn test"
+    }
+  },
+  "jestSonar": {
+    "reportPath": "coverage",
+    "reportFile": "test-report.xml",
+    "indent": 4
   }
 }

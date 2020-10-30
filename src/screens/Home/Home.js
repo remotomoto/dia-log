@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Text, View } from 'react-native';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import { faUser, faFileAlt, faCommentAlt, faEye } from '@fortawesome/free-regular-svg-icons';
+import { faFileAlt, faCommentAlt, faEye } from '@fortawesome/free-regular-svg-icons';
 
 import { translate } from '~/i18n/i18n';
 import Container from '~/components/Container';

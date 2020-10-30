@@ -5,7 +5,7 @@ import Login from '~/screens/Login';
 // import PasswordResetScreen from '~/screens/PasswordReset';
 // import SignupScreen from '~/screens/Singnup';
 
-import { login, passwordReset, signup } from '~/navigation/screens';
+import { login } from '~/navigation/screens';
 
 export const UnAuthenticatedStack = () => {
   const { Screen, Navigator } = createStackNavigator();
