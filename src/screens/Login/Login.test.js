@@ -1,5 +1,3 @@
-jest.mock('~/integrations/analytics');
-
 import React from 'react';
 import renderer from 'react-test-renderer';
 
@@ -9,14 +7,6 @@ const props = {
   actions: {
     navigate: jest.fn(),
     login: jest.fn(),
-  },
-  placeholders: {
-    email: 'E-mail',
-    password: 'Password',
-  },
-  buttons: {
-    login: { title: 'Log In' },
-    passwordForgot: { title: 'I forgot my password' },
   },
 };
 
@@ -51,6 +41,6 @@ describe('screens.LoginScreen Tests', () => {
     const root = renderer.create(ComponentTest).root;
     const button = root.findByProps({ testID: 'login-button' });
 
-    expect(button.props.text).toContain('Log In');
+    expect(button.props.text).toContain('Login');
   });
 });
