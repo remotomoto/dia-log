@@ -92,7 +92,7 @@ exports[`components.HomeMenuRow Tests default render 1`] = `
         Object {
           "alignSelf": "center",
           "color": "#ffffff",
-          "fontFamily": "circular_std_medium",
+          "fontFamily": "JetBrainsMono-Medium",
           "fontSize": 18,
         }
       }

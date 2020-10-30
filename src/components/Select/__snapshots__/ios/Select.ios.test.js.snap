@@ -75,7 +75,7 @@ exports[`components.Select.ios Tests Select.ios - default 1`] = `
             style={
               Object {
                 "color": "#395596",
-                "fontFamily": "circular_std_bold",
+                "fontFamily": "JetBrainsMono-Bold",
                 "fontSize": 16,
               }
             }
@@ -123,7 +123,7 @@ exports[`components.Select.ios Tests Select.ios - default 1`] = `
                 "height": 216,
               },
               Object {
-                "fontFamily": "circular_std_book",
+                "fontFamily": "JetBrainsMono-Regular",
               },
             ]
           }
@@ -148,7 +148,7 @@ exports[`components.Select.ios Tests Select.ios - default 1`] = `
           "borderBottomColor": "#395596",
           "borderBottomWidth": 1,
           "color": "#395596",
-          "fontFamily": "circular_std_book",
+          "fontFamily": "JetBrainsMono-Regular",
           "height": 32,
           "justifyContent": "center",
           "opacity": 1,
@@ -159,7 +159,7 @@ exports[`components.Select.ios Tests Select.ios - default 1`] = `
         style={
           Object {
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "fontSize": 16,
           }
         }
@@ -302,7 +302,7 @@ exports[`components.Select.ios Tests Select.ios - display selector 1`] = `
             style={
               Object {
                 "color": "#395596",
-                "fontFamily": "circular_std_bold",
+                "fontFamily": "JetBrainsMono-Bold",
                 "fontSize": 16,
               }
             }
@@ -350,7 +350,7 @@ exports[`components.Select.ios Tests Select.ios - display selector 1`] = `
                 "height": 216,
               },
               Object {
-                "fontFamily": "circular_std_book",
+                "fontFamily": "JetBrainsMono-Regular",
               },
             ]
           }
@@ -375,7 +375,7 @@ exports[`components.Select.ios Tests Select.ios - display selector 1`] = `
           "borderBottomColor": "#395596",
           "borderBottomWidth": 1,
           "color": "#395596",
-          "fontFamily": "circular_std_book",
+          "fontFamily": "JetBrainsMono-Regular",
           "height": 32,
           "justifyContent": "center",
           "opacity": 1,
@@ -386,7 +386,7 @@ exports[`components.Select.ios Tests Select.ios - display selector 1`] = `
         style={
           Object {
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "fontSize": 16,
           }
         }
@@ -529,7 +529,7 @@ exports[`components.Select.ios Tests Select.ios - display selector 2`] = `
             style={
               Object {
                 "color": "#395596",
-                "fontFamily": "circular_std_bold",
+                "fontFamily": "JetBrainsMono-Bold",
                 "fontSize": 16,
               }
             }
@@ -577,7 +577,7 @@ exports[`components.Select.ios Tests Select.ios - display selector 2`] = `
                 "height": 216,
               },
               Object {
-                "fontFamily": "circular_std_book",
+                "fontFamily": "JetBrainsMono-Regular",
               },
             ]
           }
@@ -602,7 +602,7 @@ exports[`components.Select.ios Tests Select.ios - display selector 2`] = `
           "borderBottomColor": "#395596",
           "borderBottomWidth": 1,
           "color": "#395596",
-          "fontFamily": "circular_std_book",
+          "fontFamily": "JetBrainsMono-Regular",
           "height": 32,
           "justifyContent": "center",
           "opacity": 1,
@@ -613,7 +613,7 @@ exports[`components.Select.ios Tests Select.ios - display selector 2`] = `
         style={
           Object {
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "fontSize": 16,
           }
         }
@@ -756,7 +756,7 @@ exports[`components.Select.ios Tests Select.ios - open and close picker 1`] = `
             style={
               Object {
                 "color": "#395596",
-                "fontFamily": "circular_std_bold",
+                "fontFamily": "JetBrainsMono-Bold",
                 "fontSize": 16,
               }
             }
@@ -804,7 +804,7 @@ exports[`components.Select.ios Tests Select.ios - open and close picker 1`] = `
                 "height": 216,
               },
               Object {
-                "fontFamily": "circular_std_book",
+                "fontFamily": "JetBrainsMono-Regular",
               },
             ]
           }
@@ -829,7 +829,7 @@ exports[`components.Select.ios Tests Select.ios - open and close picker 1`] = `
           "borderBottomColor": "#395596",
           "borderBottomWidth": 1,
           "color": "#395596",
-          "fontFamily": "circular_std_book",
+          "fontFamily": "JetBrainsMono-Regular",
           "height": 32,
           "justifyContent": "center",
           "opacity": 1,
@@ -840,7 +840,7 @@ exports[`components.Select.ios Tests Select.ios - open and close picker 1`] = `
         style={
           Object {
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "fontSize": 16,
           }
         }
@@ -983,7 +983,7 @@ exports[`components.Select.ios Tests Select.ios - open and close picker 2`] = `
             style={
               Object {
                 "color": "#395596",
-                "fontFamily": "circular_std_bold",
+                "fontFamily": "JetBrainsMono-Bold",
                 "fontSize": 16,
               }
             }
@@ -1031,7 +1031,7 @@ exports[`components.Select.ios Tests Select.ios - open and close picker 2`] = `
                 "height": 216,
               },
               Object {
-                "fontFamily": "circular_std_book",
+                "fontFamily": "JetBrainsMono-Regular",
               },
             ]
           }
@@ -1056,7 +1056,7 @@ exports[`components.Select.ios Tests Select.ios - open and close picker 2`] = `
           "borderBottomColor": "#395596",
           "borderBottomWidth": 1,
           "color": "#395596",
-          "fontFamily": "circular_std_book",
+          "fontFamily": "JetBrainsMono-Regular",
           "height": 32,
           "justifyContent": "center",
           "opacity": 1,
@@ -1067,7 +1067,7 @@ exports[`components.Select.ios Tests Select.ios - open and close picker 2`] = `
         style={
           Object {
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "fontSize": 16,
           }
         }
@@ -1210,7 +1210,7 @@ exports[`components.Select.ios Tests Select.ios - open and close picker 3`] = `
             style={
               Object {
                 "color": "#395596",
-                "fontFamily": "circular_std_bold",
+                "fontFamily": "JetBrainsMono-Bold",
                 "fontSize": 16,
               }
             }
@@ -1258,7 +1258,7 @@ exports[`components.Select.ios Tests Select.ios - open and close picker 3`] = `
                 "height": 216,
               },
               Object {
-                "fontFamily": "circular_std_book",
+                "fontFamily": "JetBrainsMono-Regular",
               },
             ]
           }
@@ -1283,7 +1283,7 @@ exports[`components.Select.ios Tests Select.ios - open and close picker 3`] = `
           "borderBottomColor": "#395596",
           "borderBottomWidth": 1,
           "color": "#395596",
-          "fontFamily": "circular_std_book",
+          "fontFamily": "JetBrainsMono-Regular",
           "height": 32,
           "justifyContent": "center",
           "opacity": 1,
@@ -1294,7 +1294,7 @@ exports[`components.Select.ios Tests Select.ios - open and close picker 3`] = `
         style={
           Object {
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "fontSize": 16,
           }
         }
@@ -1437,7 +1437,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 1`] = `
             style={
               Object {
                 "color": "#395596",
-                "fontFamily": "circular_std_bold",
+                "fontFamily": "JetBrainsMono-Bold",
                 "fontSize": 16,
               }
             }
@@ -1485,7 +1485,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 1`] = `
                 "height": 216,
               },
               Object {
-                "fontFamily": "circular_std_book",
+                "fontFamily": "JetBrainsMono-Regular",
               },
             ]
           }
@@ -1510,7 +1510,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 1`] = `
           "borderBottomColor": "#395596",
           "borderBottomWidth": 1,
           "color": "#395596",
-          "fontFamily": "circular_std_book",
+          "fontFamily": "JetBrainsMono-Regular",
           "height": 32,
           "justifyContent": "center",
           "opacity": 1,
@@ -1521,7 +1521,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 1`] = `
         style={
           Object {
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "fontSize": 16,
           }
         }
@@ -1664,7 +1664,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 2`] = `
             style={
               Object {
                 "color": "#395596",
-                "fontFamily": "circular_std_bold",
+                "fontFamily": "JetBrainsMono-Bold",
                 "fontSize": 16,
               }
             }
@@ -1712,7 +1712,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 2`] = `
                 "height": 216,
               },
               Object {
-                "fontFamily": "circular_std_book",
+                "fontFamily": "JetBrainsMono-Regular",
               },
             ]
           }
@@ -1737,7 +1737,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 2`] = `
           "borderBottomColor": "#395596",
           "borderBottomWidth": 1,
           "color": "#395596",
-          "fontFamily": "circular_std_book",
+          "fontFamily": "JetBrainsMono-Regular",
           "height": 32,
           "justifyContent": "center",
           "opacity": 1,
@@ -1748,7 +1748,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 2`] = `
         style={
           Object {
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "fontSize": 16,
           }
         }
@@ -1891,7 +1891,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 3`] = `
             style={
               Object {
                 "color": "#395596",
-                "fontFamily": "circular_std_bold",
+                "fontFamily": "JetBrainsMono-Bold",
                 "fontSize": 16,
               }
             }
@@ -1939,7 +1939,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 3`] = `
                 "height": 216,
               },
               Object {
-                "fontFamily": "circular_std_book",
+                "fontFamily": "JetBrainsMono-Regular",
               },
             ]
           }
@@ -1964,7 +1964,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 3`] = `
           "borderBottomColor": "#395596",
           "borderBottomWidth": 1,
           "color": "#395596",
-          "fontFamily": "circular_std_book",
+          "fontFamily": "JetBrainsMono-Regular",
           "height": 32,
           "justifyContent": "center",
           "opacity": 1,
@@ -1975,7 +1975,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 3`] = `
         style={
           Object {
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "fontSize": 16,
           }
         }
@@ -2118,7 +2118,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 4`] = `
             style={
               Object {
                 "color": "#395596",
-                "fontFamily": "circular_std_bold",
+                "fontFamily": "JetBrainsMono-Bold",
                 "fontSize": 16,
               }
             }
@@ -2166,7 +2166,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 4`] = `
                 "height": 216,
               },
               Object {
-                "fontFamily": "circular_std_book",
+                "fontFamily": "JetBrainsMono-Regular",
               },
             ]
           }
@@ -2191,7 +2191,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 4`] = `
           "borderBottomColor": "#395596",
           "borderBottomWidth": 1,
           "color": "#395596",
-          "fontFamily": "circular_std_book",
+          "fontFamily": "JetBrainsMono-Regular",
           "height": 32,
           "justifyContent": "center",
           "opacity": 1,
@@ -2202,7 +2202,7 @@ exports[`components.Select.ios Tests Select.ios - select null value 4`] = `
         style={
           Object {
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "fontSize": 16,
           }
         }
@@ -2345,7 +2345,7 @@ exports[`components.Select.ios Tests Select.ios - select value 1`] = `
             style={
               Object {
                 "color": "#395596",
-                "fontFamily": "circular_std_bold",
+                "fontFamily": "JetBrainsMono-Bold",
                 "fontSize": 16,
               }
             }
@@ -2393,7 +2393,7 @@ exports[`components.Select.ios Tests Select.ios - select value 1`] = `
                 "height": 216,
               },
               Object {
-                "fontFamily": "circular_std_book",
+                "fontFamily": "JetBrainsMono-Regular",
               },
             ]
           }
@@ -2418,7 +2418,7 @@ exports[`components.Select.ios Tests Select.ios - select value 1`] = `
           "borderBottomColor": "#395596",
           "borderBottomWidth": 1,
           "color": "#395596",
-          "fontFamily": "circular_std_book",
+          "fontFamily": "JetBrainsMono-Regular",
           "height": 32,
           "justifyContent": "center",
           "opacity": 1,
@@ -2429,7 +2429,7 @@ exports[`components.Select.ios Tests Select.ios - select value 1`] = `
         style={
           Object {
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "fontSize": 16,
           }
         }
@@ -2572,7 +2572,7 @@ exports[`components.Select.ios Tests Select.ios - select value 2`] = `
             style={
               Object {
                 "color": "#395596",
-                "fontFamily": "circular_std_bold",
+                "fontFamily": "JetBrainsMono-Bold",
                 "fontSize": 16,
               }
             }
@@ -2620,7 +2620,7 @@ exports[`components.Select.ios Tests Select.ios - select value 2`] = `
                 "height": 216,
               },
               Object {
-                "fontFamily": "circular_std_book",
+                "fontFamily": "JetBrainsMono-Regular",
               },
             ]
           }
@@ -2645,7 +2645,7 @@ exports[`components.Select.ios Tests Select.ios - select value 2`] = `
           "borderBottomColor": "#395596",
           "borderBottomWidth": 1,
           "color": "#395596",
-          "fontFamily": "circular_std_book",
+          "fontFamily": "JetBrainsMono-Regular",
           "height": 32,
           "justifyContent": "center",
           "opacity": 1,
@@ -2656,7 +2656,7 @@ exports[`components.Select.ios Tests Select.ios - select value 2`] = `
         style={
           Object {
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "fontSize": 16,
           }
         }
@@ -2799,7 +2799,7 @@ exports[`components.Select.ios Tests Select.ios - select value 3`] = `
             style={
               Object {
                 "color": "#395596",
-                "fontFamily": "circular_std_bold",
+                "fontFamily": "JetBrainsMono-Bold",
                 "fontSize": 16,
               }
             }
@@ -2847,7 +2847,7 @@ exports[`components.Select.ios Tests Select.ios - select value 3`] = `
                 "height": 216,
               },
               Object {
-                "fontFamily": "circular_std_book",
+                "fontFamily": "JetBrainsMono-Regular",
               },
             ]
           }
@@ -2872,7 +2872,7 @@ exports[`components.Select.ios Tests Select.ios - select value 3`] = `
           "borderBottomColor": "#395596",
           "borderBottomWidth": 1,
           "color": "#395596",
-          "fontFamily": "circular_std_book",
+          "fontFamily": "JetBrainsMono-Regular",
           "height": 32,
           "justifyContent": "center",
           "opacity": 1,
@@ -2883,7 +2883,7 @@ exports[`components.Select.ios Tests Select.ios - select value 3`] = `
         style={
           Object {
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "fontSize": 16,
           }
         }
@@ -3026,7 +3026,7 @@ exports[`components.Select.ios Tests Select.ios - select value 4`] = `
             style={
               Object {
                 "color": "#395596",
-                "fontFamily": "circular_std_bold",
+                "fontFamily": "JetBrainsMono-Bold",
                 "fontSize": 16,
               }
             }
@@ -3074,7 +3074,7 @@ exports[`components.Select.ios Tests Select.ios - select value 4`] = `
                 "height": 216,
               },
               Object {
-                "fontFamily": "circular_std_book",
+                "fontFamily": "JetBrainsMono-Regular",
               },
             ]
           }
@@ -3099,7 +3099,7 @@ exports[`components.Select.ios Tests Select.ios - select value 4`] = `
           "borderBottomColor": "#395596",
           "borderBottomWidth": 1,
           "color": "#395596",
-          "fontFamily": "circular_std_book",
+          "fontFamily": "JetBrainsMono-Regular",
           "height": 32,
           "justifyContent": "center",
           "opacity": 1,
@@ -3110,7 +3110,7 @@ exports[`components.Select.ios Tests Select.ios - select value 4`] = `
         style={
           Object {
             "color": "#395596",
-            "fontFamily": "circular_std_book",
+            "fontFamily": "JetBrainsMono-Regular",
             "fontSize": 16,
           }
         }

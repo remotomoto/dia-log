@@ -19,14 +19,16 @@ exports[`components.Logo Tests default render 1`] = `
     style={
       Object {
         "alignSelf": "center",
+        "height": 100,
+        "width": 100,
       }
     }
   />
   <Text
     style={
       Object {
-        "color": "#eb5966",
-        "fontFamily": "circular_std_book",
+        "color": "#395596",
+        "fontFamily": "JetBrainsMono-Regular",
         "fontSize": 18,
         "paddingTop": 2,
         "textAlign": "center",
@@ -51,12 +53,14 @@ exports[`components.Logo Tests white logo render 1`] = `
   <Image
     source={
       Object {
-        "testUri": "../../../src/components/Logo/images/logo-white.png",
+        "testUri": "../../../src/components/Logo/images/logo.png",
       }
     }
     style={
       Object {
         "alignSelf": "center",
+        "height": 100,
+        "width": 100,
       }
     }
   />
@@ -64,7 +68,7 @@ exports[`components.Logo Tests white logo render 1`] = `
     style={
       Object {
         "color": "#ffffff",
-        "fontFamily": "circular_std_book",
+        "fontFamily": "JetBrainsMono-Regular",
         "fontSize": 18,
         "paddingTop": 2,
         "textAlign": "center",
