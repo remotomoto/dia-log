@@ -24,6 +24,13 @@
         "label": "Login"
       }
     },
+    "signup": {
+      "errors": {
+        "invalidEmail": "Please, provide a valid email",
+        "passwordDontMatch": "Both passwords should match",
+        "passwordNotMeetingRules": "Please, ensure that your password have at least 6 characters, including at least one upper case letter, one lower case letter, one digit and one special character"
+      }
+    },
     "home": {
       "hello": "Hello %{name}",
       "whatToDo": "Start self-monitoring",

@@ -2,9 +2,9 @@ import { USER_UID } from '~/store/User/__mocks__/User.backend';
 
 jest.mock('~/store/Authentication/Authentication.backend');
 jest.mock('~/crashlytics/crashlytics');
+import { setI18nConfig } from '~/i18n/i18n';
 
 // import { authItem } from '__mocks__/Authentication.backend';
-
 const authItem = {
   uid: USER_UID,
   email: 'joe@remotomoto.com',
@@ -13,6 +13,8 @@ const authItem = {
 import * as actions from './Authentication.actions';
 
 describe('store/Authentication/Authentication.actions tests', () => {
+  setI18nConfig();
+
   const provider = 'password';
   const error = 'Sample error message';
 
@@ -60,9 +62,10 @@ describe('store/Authentication/Authentication.actions tests', () => {
     expect(dispatchFn.mock.calls[0][0].type).toEqual(actions.EMAIL_SIGNUP_STARTED);
 
     expect(dispatchFn.mock.calls[1][0]).toEqual({
-      type: actions.LOGIN_SUCCESS,
-      provider,
-      user: authItem.user,
+      type: actions.EMAIL_SIGNUP_SUCCESS,
+      //because of backend not being mocked
+      provider: undefined,
+      user: undefined,
     });
   });
 
@@ -88,7 +91,7 @@ describe('store/Authentication/Authentication.actions tests', () => {
     expect(dispatchFn.mock.calls[0][0].type).toEqual(actions.EMAIL_SIGNUP_STARTED);
     expect(dispatchFn.mock.calls[1][0].type).toEqual(actions.EMAIL_SIGNUP_ERROR);
     expect(dispatchFn.mock.calls[1][0].error).toEqual(
-      'Please, ensure that your password have at least 6 characters, including at least one upper case letter, one lower case letter, one digit and one special sharacter',
+      'Please, ensure that your password have at least 6 characters, including at least one upper case letter, one lower case letter, one digit and one special character',
     );
   });
 

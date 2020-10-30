@@ -9,49 +9,53 @@ import { getUser } from '~/store/User/User.actions';
 const file = 'store/Authentication/Authentication.actions';
 
 export const SIGNUP_STARTED = 'SIGNUP_STARTED';
+export const signupStarted = () => ({ type: SIGNUP_STARTED });
+
 export const EMAIL_SIGNUP_STARTED = 'EMAIL_SIGNUP_STARTED';
 export const EMAIL_SIGNUP_SUCCESS = 'EMAIL_SIGNUP_SUCCESS';
 export const EMAIL_SIGNUP_ERROR = 'EMAIL_SIGNUP_ERROR';
-
-export const signupStarted = () => ({ type: SIGNUP_STARTED });
 export const emailSignupStarted = () => ({ type: EMAIL_SIGNUP_STARTED });
 export const emailSignupSuccess = (provider, authData) => ({ type: EMAIL_SIGNUP_SUCCESS, provider, authData });
 export const emailSignupError = (error) => ({ type: EMAIL_SIGNUP_ERROR, error });
+
 export const emailSignup = (email, password, passwordConfirm) => {
   return async (dispatch) => {
     dispatch(emailSignupStarted());
     if (!isValidEmail(email)) {
-      recordError(new AuthenticationError('signup.errors.invalidEmail'), {
+      const message = translate('screen.signup.errors.invalidEmail');
+      recordError(new AuthenticationError(message), {
         file,
         function: 'emailSignup',
         params: { email },
       });
-      dispatch(emailSignupError(translate('signup.errors.invalidEmail')));
+      dispatch(emailSignupError(message));
       return;
     }
     if (!isValidPassword(password)) {
-      recordError(new AuthenticationError('signup.errors.passwordNotMeetingRules'), {
+      const message = translate('screen.signup.errors.passwordNotMeetingRules');
+      recordError(new AuthenticationError(message), {
         file,
         function: 'emailSignup',
         params: { email },
       });
-      dispatch(emailSignupError(translate('signup.errors.passwordNotMeetingRules')));
+      dispatch(emailSignupError(message));
       return;
     }
     if (password !== passwordConfirm) {
-      recordError(new AuthenticationError('signup.errors.passwordDontMatch'), {
+      const message = translate('screen.signup.errors.passwordDontMatch');
+      recordError(new AuthenticationError(message), {
         file,
         function: 'emailSignup',
         params: { email },
       });
-      dispatch(emailSignupError(translate('signup.errors.passwordDontMatch')));
+      dispatch(emailSignupError(message));
       return;
     }
 
     backend
       .signupWithEmail({ email, password })
       .then((result) => {
-        dispatch(loginSuccess(result.additionalUserInfo.providerId, result.user));
+        dispatch(emailSignupSuccess(result.additionalUserInfo?.providerId, result.user));
         dispatch(getUser(result.user.uid));
       })
       .catch((error) => {
