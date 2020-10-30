@@ -17,38 +17,38 @@ import { settings, profile } from '~/navigation/screens';
 
 import styles from './Home.styles';
 
-export const Home = ({ actions, practitioner }) => {
+export const Home = ({ actions, user }) => {
   return (
     <Container>
       <View style={styles.homeView}>
-        <Logo label={translate('labels.logoText')} />
+        <Logo label={translate('logo.label')} />
         <View style={styles.greetinView}>
-          <Text style={styles.greetingText}>{`${translate('home.helloDr')} ${practitioner.nameFirst}`}</Text>
-          <Text style={styles.greetingText}>{translate('home.howCanWeHelp')}</Text>
+          <Text style={styles.greetingText}>{translate('screen.home.hello', { name: user.nameFirst })}</Text>
+          <Text style={styles.greetingText}>{translate('screen.home.whatToDo')}</Text>
           <View style={styles.myScheduleHolder}>
             <Button
               onPress={() => actions.navigate(settings.screen)}
-              testID="my-schedule-button"
-              text={translate('home.mySchedule')}
+              testID="settings-button"
+              text={translate('screen.home.settings')}
             />
           </View>
         </View>
         <View style={styles.menuView}>
           <HomeMenuRow
             icon={faFileAlt}
-            text={translate('home.myProfile')}
+            text={translate('screen.home.profile')}
             theme={themes.white}
             onPress={() => actions.navigate(profile.page)}
           />
           <HomeMenuRow
             icon={faCommentAlt}
-            text={translate('home.settings')}
+            text={translate('screen.home.settings')}
             theme={themes.white}
             onPress={() => actions.navigate(settings.page)}
           />
           <HomeMenuRow
             icon={faEye}
-            text={translate('home.logout')}
+            text={translate('screen.home.logout')}
             theme={themes.white}
             onPress={() => actions.logout()}
           />
@@ -60,8 +60,8 @@ export const Home = ({ actions, practitioner }) => {
 
 const mapStateToProps = (state, ownProps) => ({
   ...ownProps,
-  practitioner: state.practitioner.info,
-  practitionerError: state.practitioner.error,
+  user: state.user.info,
+  userError: state.user.error,
 });
 
 const mapDispatchToProps = (dispatch) => ({

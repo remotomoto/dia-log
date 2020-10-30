@@ -49,21 +49,23 @@ exports[`screens.Home Tests Home - default 1`] = `
           style={
             Object {
               "alignSelf": "center",
+              "height": 100,
+              "width": 100,
             }
           }
         />
         <Text
           style={
             Object {
-              "color": "#eb5966",
-              "fontFamily": "circular_std_book",
+              "color": "#395596",
+              "fontFamily": "JetBrainsMono-Regular",
               "fontSize": 18,
               "paddingTop": 2,
               "textAlign": "center",
             }
           }
         >
-          Doctors App
+          Dia-Log
         </Text>
       </View>
       <View
@@ -73,25 +75,25 @@ exports[`screens.Home Tests Home - default 1`] = `
           style={
             Object {
               "color": "#395596",
-              "fontFamily": "circular_std_bold",
+              "fontFamily": "JetBrainsMono-Bold",
               "fontSize": 30,
               "textAlign": "center",
             }
           }
         >
-          Hello, Dr.  Viktor Test
+          Hello setNameFirst
         </Text>
         <Text
           style={
             Object {
               "color": "#395596",
-              "fontFamily": "circular_std_bold",
+              "fontFamily": "JetBrainsMono-Bold",
               "fontSize": 30,
               "textAlign": "center",
             }
           }
         >
-          How can we help you today?
+          Start self-monitoring
         </Text>
         <View
           style={
@@ -115,7 +117,7 @@ exports[`screens.Home Tests Home - default 1`] = `
                 "opacity": 1,
               }
             }
-            testID="my-schedule-button"
+            testID="settings-button"
           >
             <View
               style={
@@ -137,13 +139,13 @@ exports[`screens.Home Tests Home - default 1`] = `
                 style={
                   Object {
                     "color": "#395596",
-                    "fontFamily": "circular_std_bold",
+                    "fontFamily": "JetBrainsMono-Bold",
                     "fontSize": 20,
                     "textAlign": "center",
                   }
                 }
               >
-                My Schedule
+                Settings
               </Text>
             </View>
           </View>
@@ -158,106 +160,6 @@ exports[`screens.Home Tests Home - default 1`] = `
           }
         }
       >
-        <View
-          style={
-            Object {
-              "paddingBottom": 12,
-            }
-          }
-        >
-          <View
-            accessible={true}
-            focusable={true}
-            onClick={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Object {
-                "alignItems": "flex-start",
-                "flexDirection": "row",
-                "opacity": 1,
-              }
-            }
-          >
-            <View
-              style={
-                Object {
-                  "alignSelf": "center",
-                  "paddingRight": 12,
-                }
-              }
-            >
-              <RNSVGSvgView
-                align="xMidYMid"
-                bbHeight={16}
-                bbWidth={16}
-                fill="#395596"
-                focusable={false}
-                height={16}
-                meetOrSlice={0}
-                minX={0}
-                minY={0}
-                secondaryFill={null}
-                secondaryOpacity={0.4}
-                size={16}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "borderWidth": 0,
-                    },
-                    Object {},
-                    Object {
-                      "flex": 0,
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-                vbHeight={512}
-                vbWidth={448}
-                width={16}
-              >
-                <RNSVGGroup
-                  fill={-13019754}
-                  propList={
-                    Array [
-                      "fill",
-                    ]
-                  }
-                >
-                  <RNSVGPath
-                    d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"
-                    fill={-13019754}
-                    fillOpacity={1}
-                    propList={
-                      Array [
-                        "fill",
-                        "fillOpacity",
-                      ]
-                    }
-                  />
-                </RNSVGGroup>
-              </RNSVGSvgView>
-            </View>
-            <Text
-              style={
-                Object {
-                  "alignSelf": "center",
-                  "color": "#395596",
-                  "fontFamily": "circular_std_medium",
-                  "fontSize": 18,
-                }
-              }
-            >
-              My Consults
-            </Text>
-          </View>
-        </View>
         <View
           style={
             Object {
@@ -349,12 +251,12 @@ exports[`screens.Home Tests Home - default 1`] = `
                 Object {
                   "alignSelf": "center",
                   "color": "#395596",
-                  "fontFamily": "circular_std_medium",
+                  "fontFamily": "JetBrainsMono-Medium",
                   "fontSize": 18,
                 }
               }
             >
-              My Profile
+              Profile
             </Text>
           </View>
         </View>
@@ -431,7 +333,7 @@ exports[`screens.Home Tests Home - default 1`] = `
                   }
                 >
                   <RNSVGPath
-                    d="M452.515 237l31.843-18.382c9.426-5.441 13.996-16.542 11.177-27.054-11.404-42.531-33.842-80.547-64.058-110.797-7.68-7.688-19.575-9.246-28.985-3.811l-31.785 18.358a196.276 196.276 0 0 0-32.899-19.02V39.541a24.016 24.016 0 0 0-17.842-23.206c-41.761-11.107-86.117-11.121-127.93-.001-10.519 2.798-17.844 12.321-17.844 23.206v36.753a196.276 196.276 0 0 0-32.899 19.02l-31.785-18.358c-9.41-5.435-21.305-3.877-28.985 3.811-30.216 30.25-52.654 68.265-64.058 110.797-2.819 10.512 1.751 21.613 11.177 27.054L59.485 237a197.715 197.715 0 0 0 0 37.999l-31.843 18.382c-9.426 5.441-13.996 16.542-11.177 27.054 11.404 42.531 33.842 80.547 64.058 110.797 7.68 7.688 19.575 9.246 28.985 3.811l31.785-18.358a196.202 196.202 0 0 0 32.899 19.019v36.753a24.016 24.016 0 0 0 17.842 23.206c41.761 11.107 86.117 11.122 127.93.001 10.519-2.798 17.844-12.321 17.844-23.206v-36.753a196.34 196.34 0 0 0 32.899-19.019l31.785 18.358c9.41 5.435 21.305 3.877 28.985-3.811 30.216-30.25 52.654-68.266 64.058-110.797 2.819-10.512-1.751-21.613-11.177-27.054L452.515 275c1.22-12.65 1.22-25.35 0-38zm-52.679 63.019l43.819 25.289a200.138 200.138 0 0 1-33.849 58.528l-43.829-25.309c-31.984 27.397-36.659 30.077-76.168 44.029v50.599a200.917 200.917 0 0 1-67.618 0v-50.599c-39.504-13.95-44.196-16.642-76.168-44.029l-43.829 25.309a200.15 200.15 0 0 1-33.849-58.528l43.819-25.289c-7.63-41.299-7.634-46.719 0-88.038l-43.819-25.289c7.85-21.229 19.31-41.049 33.849-58.529l43.829 25.309c31.984-27.397 36.66-30.078 76.168-44.029V58.845a200.917 200.917 0 0 1 67.618 0v50.599c39.504 13.95 44.196 16.642 76.168 44.029l43.829-25.309a200.143 200.143 0 0 1 33.849 58.529l-43.819 25.289c7.631 41.3 7.634 46.718 0 88.037zM256 160c-52.935 0-96 43.065-96 96s43.065 96 96 96 96-43.065 96-96-43.065-96-96-96zm0 144c-26.468 0-48-21.532-48-48 0-26.467 21.532-48 48-48s48 21.533 48 48c0 26.468-21.532 48-48 48z"
+                    d="M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 7.1 5.8 12 12 12 2.4 0 4.9-.7 7.1-2.4L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64zm16 352c0 8.8-7.2 16-16 16H288l-12.8 9.6L208 428v-60H64c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16h384c8.8 0 16 7.2 16 16v288z"
                     fill={-13019754}
                     fillOpacity={1}
                     propList={
@@ -449,7 +351,7 @@ exports[`screens.Home Tests Home - default 1`] = `
                 Object {
                   "alignSelf": "center",
                   "color": "#395596",
-                  "fontFamily": "circular_std_medium",
+                  "fontFamily": "JetBrainsMono-Medium",
                   "fontSize": 18,
                 }
               }
@@ -519,7 +421,7 @@ exports[`screens.Home Tests Home - default 1`] = `
                   ]
                 }
                 vbHeight={512}
-                vbWidth={512}
+                vbWidth={576}
                 width={16}
               >
                 <RNSVGGroup
@@ -531,7 +433,7 @@ exports[`screens.Home Tests Home - default 1`] = `
                   }
                 >
                   <RNSVGPath
-                    d="M272 112v51.6h-96c-26.5 0-48 21.5-48 48v88.6c0 26.5 21.5 48 48 48h96v51.6c0 42.6 51.7 64.2 81.9 33.9l144-143.9c18.7-18.7 18.7-49.1 0-67.9l-144-144C323.8 48 272 69.3 272 112zm192 144L320 400v-99.7H176v-88.6h144V112l144 144zM96 64h84c6.6 0 12 5.4 12 12v24c0 6.6-5.4 12-12 12H96c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h84c6.6 0 12 5.4 12 12v24c0 6.6-5.4 12-12 12H96c-53 0-96-43-96-96V160c0-53 43-96 96-96z"
+                    d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z"
                     fill={-13019754}
                     fillOpacity={1}
                     propList={
@@ -549,7 +451,7 @@ exports[`screens.Home Tests Home - default 1`] = `
                 Object {
                   "alignSelf": "center",
                   "color": "#395596",
-                  "fontFamily": "circular_std_medium",
+                  "fontFamily": "JetBrainsMono-Medium",
                   "fontSize": 18,
                 }
               }

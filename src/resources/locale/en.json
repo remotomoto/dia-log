@@ -23,6 +23,13 @@
       "button": {
         "label": "Login"
       }
+    },
+    "home": {
+      "hello": "Hello %{name}",
+      "whatToDo": "Start self-monitoring",
+      "settings": "Settings",
+      "profile": "Profile",
+      "logout": "Logout"
     }
   }
 }
