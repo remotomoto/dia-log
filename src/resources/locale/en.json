@@ -19,6 +19,7 @@
         "password": "Password"
       },
       "signUp": "Sign Up",
+      "letMeIn": "Just let me in",
       "button": {
         "label": "Login"
       }
@@ -51,15 +52,31 @@
       },
       "button": {
         "reset": "Reset password",
-        "cancel": "cancel"
+        "cancel": "Cancel"
       }
     },
     "home": {
       "hello": "Hello %{name}",
       "whatToDo": "Start self-monitoring",
-      "settings": "Settings",
-      "profile": "Profile",
-      "logout": "Logout"
+      "button": {
+        "start": "asd",
+        "profile": "Profile",
+        "logout": "Logout"
+      }
+    },
+    "profile": {
+      "label": {
+        "language": "Language",
+        "dateOfBirth": "Date of birth",
+        "displayName": "Name"
+      },
+      "placeholder": {
+        "language": "Language"
+      },
+      "button": {
+        "save": "Save",
+        "cancel": "Cancel"
+      }
     }
   }
 }

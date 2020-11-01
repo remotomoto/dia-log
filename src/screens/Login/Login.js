@@ -78,10 +78,11 @@ export const Login = ({ actions, errorMessage }) => {
           </View>
         </View>
         <View style={styles.bottomHolder}>
-          <Text>
-            <Text style={styles.textSignup} onPress={() => actions.navigate(signup.screen)}>
-              {translate('screen.login.signUp')}
-            </Text>
+          <Text style={styles.textSignup} onPress={() => actions.navigate(signup.screen)}>
+            {translate('screen.login.signUp')}
+          </Text>
+          <Text style={styles.textSignup} onPress={() => actions.navigate(signup.screen)}>
+            {translate('screen.login.letMeIn')}
           </Text>
         </View>
       </View>

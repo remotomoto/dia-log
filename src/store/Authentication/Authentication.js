@@ -12,6 +12,7 @@ import {
 } from './Authentication.actions';
 
 export const initialState = {
+  isAnonymous: undefined,
   provider: null,
   user: null,
   error: null,

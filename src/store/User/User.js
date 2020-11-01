@@ -28,8 +28,8 @@ export default (state = initialState, action) => {
         ...state,
         ...{
           info: { ...action.user },
-          error: null,
         },
+        error: null,
       };
     case GET_USER_ERROR:
     case SAVE_USER_ERROR:
