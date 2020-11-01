@@ -13,7 +13,6 @@
       "errors": {
         "invalidEmail": "Please, provide a valid email"
       },
-      "notAUser": "Not a User? ",
       "passwordForgot": "I forgot my password",
       "placeholders": {
         "email": "E-mail",
@@ -52,7 +51,7 @@
       },
       "button": {
         "reset": "Reset password",
-        "back": "Back to Login"
+        "cancel": "cancel"
       }
     },
     "home": {

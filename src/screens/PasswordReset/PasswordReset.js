@@ -77,7 +77,7 @@ export const PasswordReset = ({ actions, errorMessage, passwordResetSuccess = fa
         </View>
         <View style={styles.bottomHolder}>
           <Text style={styles.textBottom} onPress={() => actions.navigate(login.screen)}>
-            {translate('screen.passwordReset.button.back')}
+            {translate('screen.passwordReset.button.cancel')}
           </Text>
         </View>
       </View>

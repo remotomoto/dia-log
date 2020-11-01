@@ -46,8 +46,8 @@ export default StyleSheet.create({
   },
   passwordForgot: {
     paddingTop: spaces.small,
-    fontFamily: fontFamilies.normal,
-    fontSize: fontSizes.small,
+    fontFamily: fontFamilies.bold,
+    fontSize: fontSizes.normal,
     color: colors.main,
     textAlign: 'right',
   },
