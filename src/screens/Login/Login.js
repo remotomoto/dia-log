@@ -80,7 +80,7 @@ export const Login = ({ actions, errorMessage }) => {
         <View style={styles.bottomHolder}>
           <Text>
             <Text style={styles.textNotAUser}>{translate('screen.login.notAUser')} </Text>
-            <Text style={styles.textSignup} onPress={() => actions.navigate(signup.page)}>
+            <Text style={styles.textSignup} onPress={() => actions.navigate(signup.screen)}>
               {translate('screen.login.signUp')}
             </Text>
           </Text>

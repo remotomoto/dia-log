@@ -2,10 +2,9 @@ import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import Login from '~/screens/Login';
-// import PasswordResetScreen from '~/screens/PasswordReset';
-// import SignupScreen from '~/screens/Singnup';
+import Signup from '~/screens/Signup';
 
-import { login } from '~/navigation/screens';
+import { login, signup } from '~/navigation/screens';
 
 export const UnAuthenticatedStack = () => {
   const { Screen, Navigator } = createStackNavigator();
@@ -13,8 +12,7 @@ export const UnAuthenticatedStack = () => {
   return (
     <Navigator initialRouteName={login.screen}>
       <Screen name={login.screen} component={Login} options={{ headerShown: false }} />
-      {/*<Screen name={passwordReset.page} component={PasswordResetScreen} options={{ headerShown: false }} />*/}
-      {/*<Screen name={signup.page} component={SignupScreen} options={{ headerShown: false }} />*/}
+      <Screen name={signup.screen} component={Signup} options={{ headerShown: false }} />
     </Navigator>
   );
 };

@@ -38,9 +38,8 @@ export const AuthenticatedStack = ({ actions }) => {
 
   return (
     <Navigator initialRouteName={home.page}>
-      <Screen name={home.page} component={Home} options={{ headerShown: false }} />
-      <Screen name={settings.page} component={Home} options={{ headerShown: false }} />
-      <Screen name={profile.page} component={Home} options={{ headerShown: false }} />
+      <Screen name={home.screen} component={Home} options={{ headerShown: false }} />
+      <Screen name={profile.screen} component={Home} options={{ headerShown: false }} />
     </Navigator>
   );
 };

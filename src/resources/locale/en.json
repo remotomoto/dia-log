@@ -25,10 +25,20 @@
       }
     },
     "signup": {
+      "title": "Signup",
       "errors": {
         "invalidEmail": "Please, provide a valid email",
         "passwordDontMatch": "Both passwords should match",
         "passwordNotMeetingRules": "Please, ensure that your password have at least 6 characters, including at least one upper case letter, one lower case letter, one digit and one special character"
+      },
+      "placeholders": {
+        "email": "E-mail",
+        "password": "Password",
+        "passwordConfirm": "Confirm password"
+      },
+      "button": {
+        "continue": "Continue",
+        "cancel": "Cancel"
       }
     },
     "home": {
