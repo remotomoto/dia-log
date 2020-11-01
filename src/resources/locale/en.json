@@ -34,7 +34,7 @@
       "placeholders": {
         "email": "E-mail",
         "password": "Password",
-        "passwordConfirm": "Confirm password"
+        "passwordConfirm": "Confirm your password"
       },
       "button": {
         "continue": "Continue",
