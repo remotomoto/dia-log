@@ -81,7 +81,7 @@ exports[`screens.Home Tests Home - default 1`] = `
             }
           }
         >
-          Hello setNameFirst
+          Hello [missing %{name} value]
         </Text>
         <Text
           style={
@@ -145,7 +145,7 @@ exports[`screens.Home Tests Home - default 1`] = `
                   }
                 }
               >
-                Settings
+                asd
               </Text>
             </View>
           </View>
@@ -257,106 +257,6 @@ exports[`screens.Home Tests Home - default 1`] = `
               }
             >
               Profile
-            </Text>
-          </View>
-        </View>
-        <View
-          style={
-            Object {
-              "paddingBottom": 12,
-            }
-          }
-        >
-          <View
-            accessible={true}
-            focusable={true}
-            onClick={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Object {
-                "alignItems": "flex-start",
-                "flexDirection": "row",
-                "opacity": 1,
-              }
-            }
-          >
-            <View
-              style={
-                Object {
-                  "alignSelf": "center",
-                  "paddingRight": 12,
-                }
-              }
-            >
-              <RNSVGSvgView
-                align="xMidYMid"
-                bbHeight={16}
-                bbWidth={16}
-                fill="#395596"
-                focusable={false}
-                height={16}
-                meetOrSlice={0}
-                minX={0}
-                minY={0}
-                secondaryFill={null}
-                secondaryOpacity={0.4}
-                size={16}
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "borderWidth": 0,
-                    },
-                    Object {},
-                    Object {
-                      "flex": 0,
-                      "height": 16,
-                      "width": 16,
-                    },
-                  ]
-                }
-                vbHeight={512}
-                vbWidth={512}
-                width={16}
-              >
-                <RNSVGGroup
-                  fill={-13019754}
-                  propList={
-                    Array [
-                      "fill",
-                    ]
-                  }
-                >
-                  <RNSVGPath
-                    d="M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 7.1 5.8 12 12 12 2.4 0 4.9-.7 7.1-2.4L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64zm16 352c0 8.8-7.2 16-16 16H288l-12.8 9.6L208 428v-60H64c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16h384c8.8 0 16 7.2 16 16v288z"
-                    fill={-13019754}
-                    fillOpacity={1}
-                    propList={
-                      Array [
-                        "fill",
-                        "fillOpacity",
-                      ]
-                    }
-                  />
-                </RNSVGGroup>
-              </RNSVGSvgView>
-            </View>
-            <Text
-              style={
-                Object {
-                  "alignSelf": "center",
-                  "color": "#395596",
-                  "fontFamily": "JetBrainsMono-Medium",
-                  "fontSize": 18,
-                }
-              }
-            >
-              Settings
             </Text>
           </View>
         </View>

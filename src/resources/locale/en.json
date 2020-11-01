@@ -13,30 +13,70 @@
       "errors": {
         "invalidEmail": "Please, provide a valid email"
       },
-      "notAUser": "Not a User? ",
       "passwordForgot": "I forgot my password",
       "placeholders": {
         "email": "E-mail",
         "password": "Password"
       },
       "signUp": "Sign Up",
+      "letMeIn": "Just let me in",
       "button": {
         "label": "Login"
       }
     },
     "signup": {
+      "title": "Signup",
       "errors": {
         "invalidEmail": "Please, provide a valid email",
         "passwordDontMatch": "Both passwords should match",
         "passwordNotMeetingRules": "Please, ensure that your password have at least 6 characters, including at least one upper case letter, one lower case letter, one digit and one special character"
+      },
+      "placeholders": {
+        "email": "E-mail",
+        "password": "Password",
+        "passwordConfirm": "Confirm your password"
+      },
+      "button": {
+        "continue": "Continue",
+        "cancel": "Cancel"
+      }
+    },
+    "passwordReset": {
+      "title": "Provide your e-mail to receive password reset instructions",
+      "success": "You should receive email with password reset instructions",
+      "error": {
+        "invalidEmail": "Please, provide a valid email"
+      },
+      "placeholders": {
+        "email": "E-mail"
+      },
+      "button": {
+        "reset": "Reset password",
+        "cancel": "Cancel"
       }
     },
     "home": {
       "hello": "Hello %{name}",
       "whatToDo": "Start self-monitoring",
-      "settings": "Settings",
-      "profile": "Profile",
-      "logout": "Logout"
+      "button": {
+        "start": "asd",
+        "profile": "Profile",
+        "logout": "Logout"
+      }
+    },
+    "profile": {
+      "label": {
+        "language": "Language",
+        "dateOfBirth": "Date of birth",
+        "displayName": "Name"
+      },
+      "placeholder": {
+        "language": "Language"
+      },
+      "button": {
+        "save": "Save",
+        "cancel": "Cancel"
+      }
     }
   }
 }

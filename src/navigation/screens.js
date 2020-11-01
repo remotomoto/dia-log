@@ -18,12 +18,7 @@ const passwordReset = {
   title: translate('navigation.passwordReset'),
 };
 const profile = {
-  screen: 'PasswordReset',
-  title: translate('navigation.passwordReset'),
+  screen: 'Profile',
+  title: translate('navigation.profile'),
 };
-const settings = {
-  screen: 'PasswordReset',
-  title: translate('navigation.passwordReset'),
-};
-
-export { home, signup, login, passwordReset, profile, settings };
+export { home, signup, login, passwordReset, profile };

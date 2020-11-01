@@ -6,7 +6,7 @@ export default StyleSheet.create({
   containerEmpty: {
     flex: 1,
   },
-  loginView: {
+  passwordResetView: {
     flex: 1,
     justifyContent: 'space-between',
     alignItems: 'center',
@@ -15,21 +15,14 @@ export default StyleSheet.create({
     width: '100%',
     paddingHorizontal: spaces.big,
   },
-  bottomHolder: {
-    paddingBottom: spaces.large,
-  },
-  textNotAUser: {
-    fontSize: fontSizes.normal,
-    color: colors.main,
-    fontFamily: fontFamilies.normal,
-  },
-  textSignup: {
-    fontSize: fontSizes.normal,
-    color: colors.main,
-    fontFamily: fontFamilies.bold,
-  },
-  loginFormHolder: {
+  passwordResetFormHolder: {
     width: '100%',
+  },
+  title: {
+    fontFamily: fontFamilies.normal,
+    fontSize: fontSizes.medium,
+    color: colors.main,
+    textAlign: 'center',
   },
   errorHolder: {
     paddingBottom: spaces.large,
@@ -41,17 +34,15 @@ export default StyleSheet.create({
     color: colors.alert,
   },
   emailHolder: {},
-  passwordHolder: {
-    paddingTop: spaces.large,
-  },
-  passwordForgot: {
-    paddingTop: spaces.small,
-    fontFamily: fontFamilies.bold,
-    fontSize: fontSizes.normal,
-    color: colors.main,
-    textAlign: 'right',
-  },
   buttonHolder: {
     paddingTop: spaces.big,
+  },
+  bottomHolder: {
+    paddingBottom: spaces.large,
+  },
+  textBottom: {
+    fontSize: fontSizes.normal,
+    color: colors.main,
+    fontFamily: fontFamilies.bold,
   },
 });

@@ -1,7 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`screens.LoginScreen Tests LoginScreen - default 1`] = `
-<View
+exports[`screens.Signup Tests Signup - default 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
   style={
     Object {
       "backgroundColor": "#ffffff",
@@ -14,11 +15,16 @@ exports[`screens.LoginScreen Tests LoginScreen - default 1`] = `
     onLayout={[Function]}
     style={
       Array [
+        Array [
+          Object {
+            "backgroundColor": "#ffffff",
+            "flex": 1,
+          },
+          undefined,
+        ],
         Object {
-          "backgroundColor": "#ffffff",
-          "flex": 1,
+          "paddingBottom": 0,
         },
-        undefined,
       ]
     }
     testID="keyboardAvoiding"
@@ -78,12 +84,29 @@ exports[`screens.LoginScreen Tests LoginScreen - default 1`] = `
         }
       >
         <View
-          style={
-            Object {
-              "width": "100%",
-            }
-          }
+          style={Object {}}
         >
+          <View
+            style={
+              Object {
+                "alignContent": "center",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#395596",
+                  "fontFamily": "JetBrainsMono-Bold",
+                  "fontSize": 24,
+                  "paddingBottom": 24,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Signup
+            </Text>
+          </View>
           <View
             style={Object {}}
           >
@@ -114,7 +137,7 @@ exports[`screens.LoginScreen Tests LoginScreen - default 1`] = `
                     "fontSize": 16,
                     "height": 32,
                     "paddingHorizontal": 0,
-                    "paddingVertical": 0,
+                    "paddingVertical": 4,
                   }
                 }
                 textContentType="emailAddress"
@@ -126,7 +149,7 @@ exports[`screens.LoginScreen Tests LoginScreen - default 1`] = `
           <View
             style={
               Object {
-                "paddingTop": 24,
+                "paddingTop": 32,
               }
             }
           >
@@ -141,8 +164,52 @@ exports[`screens.LoginScreen Tests LoginScreen - default 1`] = `
                 allowFontScaling={true}
                 autoCapitalize="none"
                 autoCompleteType="password"
+                autoCorrect={false}
                 onChangeText={[Function]}
                 placeholder="Password"
+                placeholderTextColor="#cccccc"
+                rejectResponderTermination={true}
+                returnKeyType="next"
+                secureTextEntry={true}
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#395596",
+                    "color": "#395596",
+                    "fontFamily": "JetBrainsMono-Regular",
+                    "fontSize": 16,
+                    "height": 32,
+                    "paddingHorizontal": 0,
+                    "paddingVertical": 4,
+                  }
+                }
+                textContentType="password"
+                underlineColorAndroid="transparent"
+                value=""
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "paddingTop": 32,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingTop": 16,
+                }
+              }
+            >
+              <TextInput
+                allowFontScaling={true}
+                autoCapitalize="none"
+                autoCompleteType="password"
+                autoCorrect={false}
+                onChangeText={[Function]}
+                placeholder="Confirm your password"
                 placeholderTextColor="#cccccc"
                 rejectResponderTermination={true}
                 returnKeyType="done"
@@ -156,7 +223,7 @@ exports[`screens.LoginScreen Tests LoginScreen - default 1`] = `
                     "fontSize": 16,
                     "height": 32,
                     "paddingHorizontal": 0,
-                    "paddingVertical": 0,
+                    "paddingVertical": 4,
                   }
                 }
                 textContentType="password"
@@ -164,21 +231,6 @@ exports[`screens.LoginScreen Tests LoginScreen - default 1`] = `
                 value=""
               />
             </View>
-            <Text
-              onPress={[Function]}
-              style={
-                Object {
-                  "color": "#395596",
-                  "fontFamily": "JetBrainsMono-Bold",
-                  "fontSize": 16,
-                  "paddingTop": 8,
-                  "textAlign": "right",
-                }
-              }
-              testID="passwordForgot"
-            >
-              I forgot my password
-            </Text>
           </View>
           <View
             style={
@@ -202,7 +254,7 @@ exports[`screens.LoginScreen Tests LoginScreen - default 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="login-button"
+              testID="continue-button"
             >
               <View
                 style={
@@ -230,9 +282,34 @@ exports[`screens.LoginScreen Tests LoginScreen - default 1`] = `
                     }
                   }
                 >
-                  Login
+                  Continue
                 </Text>
               </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "paddingTop": 32,
+              }
+            }
+          >
+            <View>
+              <Text
+                onPress={[Function]}
+                style={
+                  Object {
+                    "color": "#cccccc",
+                    "fontFamily": "JetBrainsMono-Bold",
+                    "fontSize": 18,
+                    "opacity": 0.8,
+                    "textAlign": "center",
+                  }
+                }
+                testID="cancel-button"
+              >
+                Cancel
+              </Text>
             </View>
           </View>
         </View>
@@ -240,36 +317,15 @@ exports[`screens.LoginScreen Tests LoginScreen - default 1`] = `
       <View
         style={
           Object {
-            "paddingBottom": 24,
+            "paddingBottom": 64,
           }
         }
       >
-        <Text
-          onPress={[Function]}
-          style={
-            Object {
-              "color": "#395596",
-              "fontFamily": "JetBrainsMono-Bold",
-              "fontSize": 16,
-            }
-          }
-        >
-          Sign Up
-        </Text>
-        <Text
-          onPress={[Function]}
-          style={
-            Object {
-              "color": "#395596",
-              "fontFamily": "JetBrainsMono-Bold",
-              "fontSize": 16,
-            }
-          }
-        >
-          Just let me in
+        <Text>
+           
         </Text>
       </View>
     </View>
   </View>
-</View>
+</RCTSafeAreaView>
 `;

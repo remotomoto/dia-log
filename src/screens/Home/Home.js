@@ -23,32 +23,26 @@ export const Home = ({ actions, user }) => {
       <View style={styles.homeView}>
         <Logo label={translate('logo.label')} />
         <View style={styles.greetinView}>
-          <Text style={styles.greetingText}>{translate('screen.home.hello', { name: user.nameFirst })}</Text>
+          <Text style={styles.greetingText}>{translate('screen.home.hello', { name: user.displayName })}</Text>
           <Text style={styles.greetingText}>{translate('screen.home.whatToDo')}</Text>
           <View style={styles.myScheduleHolder}>
             <Button
               onPress={() => actions.navigate(settings.screen)}
               testID="settings-button"
-              text={translate('screen.home.settings')}
+              text={translate('screen.home.button.start')}
             />
           </View>
         </View>
         <View style={styles.menuView}>
           <HomeMenuRow
             icon={faFileAlt}
-            text={translate('screen.home.profile')}
+            text={translate('screen.home.button.profile')}
             theme={themes.white}
-            onPress={() => actions.navigate(profile.page)}
-          />
-          <HomeMenuRow
-            icon={faCommentAlt}
-            text={translate('screen.home.settings')}
-            theme={themes.white}
-            onPress={() => actions.navigate(settings.page)}
+            onPress={() => actions.navigate(profile.screen)}
           />
           <HomeMenuRow
             icon={faEye}
-            text={translate('screen.home.logout')}
+            text={translate('screen.home.button.logout')}
             theme={themes.white}
             onPress={() => actions.logout()}
           />

@@ -16,7 +16,7 @@ const persistConfig = {
   ],
 };
 
-const composeEnhancers = /*window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ||*/ compose;
+const composeEnhancers = (typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose;
 
 // in this middleware we can put actions to be called on REHYDRATE
 const appStateMiddleware = () => {

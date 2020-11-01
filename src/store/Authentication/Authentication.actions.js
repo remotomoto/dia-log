@@ -4,7 +4,7 @@ import { translate } from '~/i18n/i18n';
 
 import { recordError } from '~/crashlytics/crashlytics';
 import * as backend from './Authentication.backend';
-import { getUser } from '~/store/User/User.actions';
+import { getUser, saveUser } from '~/store/User/User.actions';
 
 const file = 'store/Authentication/Authentication.actions';
 
@@ -56,7 +56,17 @@ export const emailSignup = (email, password, passwordConfirm) => {
       .signupWithEmail({ email, password })
       .then((result) => {
         dispatch(emailSignupSuccess(result.additionalUserInfo?.providerId, result.user));
-        dispatch(getUser(result.user.uid));
+        dispatch(
+          saveUser({
+            uid: result.user.uid,
+            providerId: result.user.providerId,
+            email: result.user.email,
+            emailVerified: result.user.emailVerified,
+            displayName: result.user.displayName,
+            photoURL: result.user.photoURL,
+            isAnonymous: result.user.isAnonymous,
+          }),
+        );
       })
       .catch((error) => {
         recordError(error, { file, function: 'emailSignup', params: { email } });
@@ -121,12 +131,12 @@ export const passwordReset = (email) => {
     dispatch(passwordResetStarted());
 
     if (!isValidEmail(email)) {
-      recordError(new AuthenticationError('passwordReset.errors.invalidEmail'), {
+      recordError(new AuthenticationError('screen.passwordReset.error.invalidEmail'), {
         file,
         function: 'passwordReset',
         params: { email },
       });
-      dispatch(passwordResetError(translate('passwordReset.errors.invalidEmail')));
+      dispatch(passwordResetError(translate('screen.passwordReset.error.invalidEmail')));
       return;
     }
 

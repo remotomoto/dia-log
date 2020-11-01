@@ -1,13 +1,6 @@
 import React from 'react';
-import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar } from 'react-native';
+import { StatusBar } from 'react-native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 import SplashScreen from 'react-native-splash-screen';
 import { PersistGate } from 'redux-persist/integration/react';
 import { setI18nConfig } from '~/i18n/i18n';
@@ -23,16 +16,12 @@ export default class App extends React.Component {
     super(props);
     setI18nConfig();
     if (!firebase.apps.length) {
-      // const config = {
-      //   projectId: 'xxx',
-      //   apiKey: 'xxx',
-      // };
-      // firebase.initializeApp(config);
       firebase.app('[DEFAULT]');
     }
   }
 
   componentDidMount() {
+    // persistor.purge();
     SplashScreen.hide();
   }
 

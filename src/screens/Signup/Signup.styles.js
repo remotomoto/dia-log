@@ -6,17 +6,20 @@ export default StyleSheet.create({
   containerEmpty: {
     flex: 1,
   },
-  loginView: {
+  signupView: {
     flex: 1,
     justifyContent: 'space-between',
     alignItems: 'center',
+  },
+  logoHolder: {
+    paddingTop: spaces.large,
   },
   formHolder: {
     width: '100%',
     paddingHorizontal: spaces.big,
   },
   bottomHolder: {
-    paddingBottom: spaces.large,
+    paddingBottom: spaces.huge,
   },
   textNotAUser: {
     fontSize: fontSizes.normal,
@@ -27,31 +30,5 @@ export default StyleSheet.create({
     fontSize: fontSizes.normal,
     color: colors.main,
     fontFamily: fontFamilies.bold,
-  },
-  loginFormHolder: {
-    width: '100%',
-  },
-  errorHolder: {
-    paddingBottom: spaces.large,
-  },
-  error: {
-    textAlign: 'center',
-    fontFamily: fontFamilies.normal,
-    fontSize: fontSizes.normal,
-    color: colors.alert,
-  },
-  emailHolder: {},
-  passwordHolder: {
-    paddingTop: spaces.large,
-  },
-  passwordForgot: {
-    paddingTop: spaces.small,
-    fontFamily: fontFamilies.bold,
-    fontSize: fontSizes.normal,
-    color: colors.main,
-    textAlign: 'right',
-  },
-  buttonHolder: {
-    paddingTop: spaces.big,
   },
 });
