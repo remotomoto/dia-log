@@ -41,6 +41,20 @@
         "cancel": "Cancel"
       }
     },
+    "passwordReset": {
+      "title": "Provide your e-mail to receive password reset instructions",
+      "success": "You should receive email with password reset instructions",
+      "error": {
+        "invalidEmail": "Please, provide a valid email"
+      },
+      "placeholders": {
+        "email": "E-mail"
+      },
+      "button": {
+        "reset": "Reset password",
+        "back": "Back to Login"
+      }
+    },
     "home": {
       "hello": "Hello %{name}",
       "whatToDo": "Start self-monitoring",

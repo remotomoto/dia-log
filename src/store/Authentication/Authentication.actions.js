@@ -131,12 +131,12 @@ export const passwordReset = (email) => {
     dispatch(passwordResetStarted());
 
     if (!isValidEmail(email)) {
-      recordError(new AuthenticationError('passwordReset.errors.invalidEmail'), {
+      recordError(new AuthenticationError('screen.passwordReset.error.invalidEmail'), {
         file,
         function: 'passwordReset',
         params: { email },
       });
-      dispatch(passwordResetError(translate('passwordReset.errors.invalidEmail')));
+      dispatch(passwordResetError(translate('screen.passwordReset.error.invalidEmail')));
       return;
     }
 
