@@ -1,0 +1,555 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`screens.Signup Tests Signup - default 1`] = `
+<RCTScrollView>
+  <View>
+    <RCTSafeAreaView
+      emulateUnlessSupported={true}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "flex": 1,
+        }
+      }
+      testID="safeAreaView"
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Array [
+              Object {
+                "backgroundColor": "#ffffff",
+                "flex": 1,
+              },
+              undefined,
+            ],
+            Object {
+              "paddingBottom": 0,
+            },
+          ]
+        }
+        testID="keyboardAvoiding"
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#cccccc",
+              "paddingHorizontal": 32,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#395596",
+                "borderBottomWidth": 0.5,
+                "marginBottom": 8,
+              }
+            }
+          >
+            <Text>
+              [missing "en.profile.basic.title" translation]
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "paddingBottom": 12,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "paddingRight": 8,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "paddingTop": 16,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#ffffff",
+                        "fontFamily": "JetBrainsMono-Regular",
+                        "fontSize": 14,
+                        "paddingBottom": 4,
+                      }
+                    }
+                  >
+                    Language
+                  </Text>
+                  <View
+                    style={Object {}}
+                  >
+                    <Modal
+                      animationType="fade"
+                      hardwareAccelerated={false}
+                      transparent={true}
+                      visible={false}
+                    >
+                      <View
+                        accessible={true}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "backgroundColor": "rgba(0,0,0,0.5)",
+                            "flex": 1,
+                            "justifyContent": "flex-end",
+                            "opacity": 1,
+                            "width": null,
+                          }
+                        }
+                      />
+                      <View
+                        style={
+                          Object {
+                            "backgroundColor": "white",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "backgroundColor": "rgba(0,0,0,0.1)",
+                              "justifyContent": "space-between",
+                              "paddingHorizontal": 16,
+                              "paddingVertical": 8,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "alignSelf": "flex-start",
+                              }
+                            }
+                          />
+                          <View
+                            accessible={true}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "alignSelf": "flex-end",
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <Text
+                              style={
+                                Object {
+                                  "color": "#395596",
+                                  "fontFamily": "JetBrainsMono-Bold",
+                                  "fontSize": 16,
+                                }
+                              }
+                            >
+                              Done
+                            </Text>
+                          </View>
+                        </View>
+                        <View>
+                          <RNCPicker
+                            items={
+                              Array [
+                                Object {
+                                  "label": "Language",
+                                  "textColor": undefined,
+                                  "value": null,
+                                },
+                                Object {
+                                  "label": "English",
+                                  "textColor": undefined,
+                                  "value": "En",
+                                },
+                                Object {
+                                  "label": "Russian",
+                                  "textColor": undefined,
+                                  "value": "Ru",
+                                },
+                              ]
+                            }
+                            onChange={[Function]}
+                            selectedIndex={1}
+                            style={
+                              Array [
+                                Object {
+                                  "height": 216,
+                                },
+                                Object {
+                                  "fontFamily": "JetBrainsMono-Regular",
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                    </Modal>
+                    <View>
+                      <View
+                        accessible={true}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "backgroundColor": "#395596",
+                            "borderBottomColor": "#ffffff",
+                            "borderBottomWidth": 1,
+                            "color": "#ffffff",
+                            "fontFamily": "JetBrainsMono-Regular",
+                            "height": 32,
+                            "justifyContent": "center",
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Object {
+                              "color": "#ffffff",
+                              "fontFamily": "JetBrainsMono-Regular",
+                              "fontSize": 16,
+                            }
+                          }
+                        >
+                          English
+                        </Text>
+                        <RNSVGSvgView
+                          align="xMidYMid"
+                          bbHeight={16}
+                          bbWidth={16}
+                          fill="#ffffff"
+                          focusable={false}
+                          height={16}
+                          meetOrSlice={0}
+                          minX={0}
+                          minY={0}
+                          secondaryFill={null}
+                          secondaryOpacity={0.4}
+                          size={16}
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "borderWidth": 0,
+                              },
+                              Object {
+                                "height": 24,
+                                "position": "absolute",
+                                "right": 0,
+                              },
+                              Object {
+                                "flex": 0,
+                                "height": 16,
+                                "width": 16,
+                              },
+                            ]
+                          }
+                          vbHeight={512}
+                          vbWidth={448}
+                          width={16}
+                        >
+                          <RNSVGGroup
+                            fill={4294967295}
+                            propList={
+                              Array [
+                                "fill",
+                              ]
+                            }
+                          >
+                            <RNSVGPath
+                              d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                              fill={4294967295}
+                              fillOpacity={1}
+                              propList={
+                                Array [
+                                  "fill",
+                                  "fillOpacity",
+                                ]
+                              }
+                            />
+                          </RNSVGGroup>
+                        </RNSVGSvgView>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "paddingBottom": 12,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "paddingTop": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#ffffff",
+                      "fontFamily": "JetBrainsMono-Regular",
+                      "fontSize": 14,
+                      "paddingBottom": 4,
+                    }
+                  }
+                >
+                  Date of birth
+                </Text>
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "borderBottomColor": "#395596",
+                      "borderBottomWidth": 1,
+                      "height": 32,
+                      "justifyContent": "center",
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#395596",
+                        "fontFamily": "JetBrainsMono-Regular",
+                        "fontSize": 16,
+                      }
+                    }
+                  >
+                    Select date
+                  </Text>
+                </View>
+                <Modal
+                  animationType="none"
+                  hardwareAccelerated={false}
+                  isVisible={false}
+                  onHide={[Function]}
+                  transparent={true}
+                  visible={false}
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "black",
+                        "bottom": 0,
+                        "height": 1334,
+                        "left": 0,
+                        "opacity": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "width": 750,
+                      }
+                    }
+                  />
+                </Modal>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "paddingBottom": 12,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "paddingRight": 8,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "paddingTop": 16,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#ffffff",
+                        "fontFamily": "JetBrainsMono-Regular",
+                        "fontSize": 14,
+                        "paddingBottom": 4,
+                      }
+                    }
+                  >
+                    Name
+                  </Text>
+                  <TextInput
+                    allowFontScaling={true}
+                    autoCapitalize="words"
+                    autoCorrect={false}
+                    blurOnSubmit={false}
+                    keyboardType="default"
+                    onChangeText={[Function]}
+                    placeholderTextColor="#cccccc"
+                    rejectResponderTermination={true}
+                    returnKeyType="next"
+                    style={
+                      Object {
+                        "borderBottomWidth": 1,
+                        "borderColor": "#ffffff",
+                        "color": "#ffffff",
+                        "fontFamily": "JetBrainsMono-Regular",
+                        "fontSize": 16,
+                        "height": 32,
+                        "paddingHorizontal": 0,
+                        "paddingVertical": 4,
+                      }
+                    }
+                    textContentType="givenName"
+                    underlineColorAndroid="transparent"
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "paddingBottom": 12,
+              }
+            }
+          >
+            <View>
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignSelf": "center",
+                      "backgroundColor": "#395596",
+                      "borderColor": "#ffffff",
+                      "borderRadius": 22,
+                      "borderWidth": 1,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "paddingHorizontal": 8,
+                      "paddingVertical": 4,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "#ffffff",
+                        "fontFamily": "JetBrainsMono-Bold",
+                        "fontSize": 20,
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    Save
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View>
+            <Text
+              onPress={[MockFunction]}
+              testID="cancel-button"
+            >
+              Cancel
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTSafeAreaView>
+  </View>
+</RCTScrollView>
+`;

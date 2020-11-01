@@ -175,8 +175,8 @@ exports[`screens.LoginScreen Tests LoginScreen - default 1`] = `
               style={
                 Object {
                   "color": "#395596",
-                  "fontFamily": "JetBrainsMono-Regular",
-                  "fontSize": 14,
+                  "fontFamily": "JetBrainsMono-Bold",
+                  "fontSize": 16,
                   "paddingTop": 8,
                   "textAlign": "right",
                 }
@@ -250,31 +250,29 @@ exports[`screens.LoginScreen Tests LoginScreen - default 1`] = `
           }
         }
       >
-        <Text>
-          <Text
-            style={
-              Object {
-                "color": "#395596",
-                "fontFamily": "JetBrainsMono-Regular",
-                "fontSize": 16,
-              }
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "color": "#395596",
+              "fontFamily": "JetBrainsMono-Bold",
+              "fontSize": 16,
             }
-          >
-            Not a User? 
-             
-          </Text>
-          <Text
-            onPress={[Function]}
-            style={
-              Object {
-                "color": "#395596",
-                "fontFamily": "JetBrainsMono-Bold",
-                "fontSize": 16,
-              }
+          }
+        >
+          Sign Up
+        </Text>
+        <Text
+          onPress={[Function]}
+          style={
+            Object {
+              "color": "#395596",
+              "fontFamily": "JetBrainsMono-Bold",
+              "fontSize": 16,
             }
-          >
-            Sign Up
-          </Text>
+          }
+        >
+          Just let me in
         </Text>
       </View>
     </View>

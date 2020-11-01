@@ -6,13 +6,20 @@ import { makeStore } from '~/store/config';
 
 import { Profile } from '.';
 
+const props = {
+  actions: {
+    cancel: jest.fn(),
+  },
+  navigation: { addListener: jest.fn },
+};
+
 describe('screens.Signup Tests', () => {
   test('Signup - default', async () => {
     const { store } = makeStore();
 
     const renderedView = renderer.create(
       <Provider store={store}>
-        <Profile navigation={{ addListener: jest.fn }} />
+        <Profile {...props} />
       </Provider>,
     );
     expect(renderedView.toJSON()).toMatchSnapshot();
